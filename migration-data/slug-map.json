@@ -1,0 +1,495 @@
+[
+  {
+    "entityType": "author",
+    "entityKey": "author:kim-lan",
+    "displayName": "Kim Lân",
+    "candidateSlug": "kim-lan",
+    "finalSlug": "kim-lan",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/kimLan"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/kimLan"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/kimLan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/kimLan"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:nam-cao",
+    "displayName": "Nam Cao",
+    "candidateSlug": "nam-cao",
+    "finalSlug": "nam-cao",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/namCao"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/namCao"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/namCao/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/namCao"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:ngo-tat-to",
+    "displayName": "Ngô Tất Tố",
+    "candidateSlug": "ngo-tat-to",
+    "finalSlug": "ngo-tat-to",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/ngoTatTo"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/ngoTatTo"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/ngoTatTo/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/ngoTatTo"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:nguyen-du",
+    "displayName": "Nguyễn Du",
+    "candidateSlug": "nguyen-du",
+    "finalSlug": "nguyen-du",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/nguyenDu"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/nguyenDu"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenDu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenDu"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:nguyen-ngoc-tu",
+    "displayName": "Nguyễn Ngọc Tư",
+    "candidateSlug": "nguyen-ngoc-tu",
+    "finalSlug": "nguyen-ngoc-tu",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/nguyenNgocTu"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/nguyenNgocTu"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNgocTu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNgocTu"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:nguyen-nhat-anh",
+    "displayName": "Nguyễn Nhật Ánh",
+    "candidateSlug": "nguyen-nhat-anh",
+    "finalSlug": "nguyen-nhat-anh",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/nguyenNhatAnh"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/",
+      "/authorsPage/nguyenNhatAnh"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+        "sourceSection": "authorSpotlight",
+        "sourceRoute": "/"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNhatAnh/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNhatAnh"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:nguyen-tuan",
+    "displayName": "Nguyễn Tuân",
+    "candidateSlug": "nguyen-tuan",
+    "finalSlug": "nguyen-tuan",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/nguyenTuan"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/nguyenTuan"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenTuan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenTuan"
+      }
+    ]
+  },
+  {
+    "entityType": "author",
+    "entityKey": "author:vu-trong-phung",
+    "displayName": "Vũ Trọng Phụng",
+    "candidateSlug": "vu-trong-phung",
+    "finalSlug": "vu-trong-phung",
+    "collisionStrategy": "base",
+    "legacyRoutes": [
+      "/authorsPage/vuTrongPhung"
+    ],
+    "sourceRoutes": [
+      "/authorsPage",
+      "/authorsPage/vuTrongPhung"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/vuTrongPhung/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/vuTrongPhung"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:cam-on-nguoi-lon",
+    "displayName": "Cảm ơn người lớn",
+    "candidateSlug": "cam-on-nguoi-lon",
+    "finalSlug": "cam-on-nguoi-lon",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage",
+      "/"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:canh-dong-bat-tan",
+    "displayName": "Cánh đồng bất tận",
+    "candidateSlug": "canh-dong-bat-tan",
+    "finalSlug": "canh-dong-bat-tan",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:chi-pheo",
+    "displayName": "Chí Phèo",
+    "candidateSlug": "chi-pheo",
+    "finalSlug": "chi-pheo",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:cho-toi-xin-mot-ve-di-tuoi-tho",
+    "displayName": "Cho tôi xin một vé đi tuổi thơ",
+    "candidateSlug": "cho-toi-xin-mot-ve-di-tuoi-tho",
+    "finalSlug": "cho-toi-xin-mot-ve-di-tuoi-tho",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage",
+      "/"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:doi-thua",
+    "displayName": "Đời thừa",
+    "candidateSlug": "doi-thua",
+    "finalSlug": "doi-thua",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:ngay-xua-co-mot-chuyen-tinh",
+    "displayName": "Ngày xưa có một chuyện tình",
+    "candidateSlug": "ngay-xua-co-mot-chuyen-tinh",
+    "finalSlug": "ngay-xua-co-mot-chuyen-tinh",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+        "sourceSection": "hero",
+        "sourceRoute": "/"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:so-do",
+    "displayName": "Số đỏ",
+    "candidateSlug": "so-do",
+    "finalSlug": "so-do",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:tat-den",
+    "displayName": "Tắt đèn",
+    "candidateSlug": "tat-den",
+    "finalSlug": "tat-den",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:toi-la-beto",
+    "displayName": "Tôi là Bêtô",
+    "candidateSlug": "toi-la-beto",
+    "finalSlug": "toi-la-beto",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage",
+      "/"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:toi-thay-hoa-vang-tren-co-xanh",
+    "displayName": "Tôi thấy hoa vàng trên cỏ xanh",
+    "candidateSlug": "toi-thay-hoa-vang-tren-co-xanh",
+    "finalSlug": "toi-thay-hoa-vang-tren-co-xanh",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage",
+      "/"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:truyen-kieu",
+    "displayName": "Truyện Kiều",
+    "candidateSlug": "truyen-kieu",
+    "finalSlug": "truyen-kieu",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:vang-bong-mot-thoi",
+    "displayName": "Vang bóng một thời",
+    "candidateSlug": "vang-bong-mot-thoi",
+    "finalSlug": "vang-bong-mot-thoi",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  },
+  {
+    "entityType": "book",
+    "entityKey": "book:vo-nhat",
+    "displayName": "Vợ nhặt",
+    "candidateSlug": "vo-nhat",
+    "finalSlug": "vo-nhat",
+    "collisionStrategy": "base",
+    "legacyRoutes": [],
+    "sourceRoutes": [
+      "/booksPage"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ]
+  }
+]

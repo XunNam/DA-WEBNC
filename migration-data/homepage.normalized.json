@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "eyebrow": "SÁCH MỚI",
+    "featuredBookKey": "book:ngay-xua-co-mot-chuyen-tinh",
+    "reviewedShortCopy": null,
+    "shortCopyEditorialHoldKey": "homepage-hero-summary",
+    "buyLinkUrl": "https://www.fahasa.com/ngay-xua-co-mot-chuyen-tinh-tai-ban-2019.html?srsltid=AfmBOooOcK_lIIzXg0WQBiAIWSGpt3JGfI5QjX3Z7BeQ1nzr13W2-1u8",
+    "sampleLinkUrl": "https://books.google.com.vn/books/about/Ng%C3%A0y_x%C6%B0a_c%C3%B3_m%E1%BB%99t_chuy%E1%BB%87n_t%C3%ACnh.html?id=ZldZAQAACAAJ&source=kp_book_description&redir_esc=y",
+    "provenance": {
+      "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+      "sourceRoute": "/"
+    }
+  },
+  "authorSpotlight": {
+    "eyebrow": "TÁC GIẢ",
+    "featuredAuthorKey": "author:nguyen-nhat-anh",
+    "reviewedShortCopy": null,
+    "shortCopyEditorialHoldKey": "homepage-author-spotlight-summary",
+    "provenance": {
+      "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+      "sourceRoute": "/"
+    }
+  },
+  "bestSellers": {
+    "bookKeys": [
+      "book:cho-toi-xin-mot-ve-di-tuoi-tho",
+      "book:cam-on-nguoi-lon",
+      "book:toi-la-beto",
+      "book:toi-thay-hoa-vang-tren-co-xanh"
+    ],
+    "provenance": {
+      "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+      "sourceRoute": "/"
+    }
+  },
+  "awards": [
+    {
+      "iconKey": "ultra",
+      "title": "Best Author Awards 2012",
+      "body": "Arcu pellentesque nisi consectetur netus aenean metus sit mattis sit sed.",
+      "provenance": {
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceRoute": "/",
+        "rawIconPath": "/ultra.svg",
+        "rawIconAlt": "Ultra Prestigous"
+      }
+    },
+    {
+      "iconKey": "mega",
+      "title": "World's #1 Best-selling Book",
+      "body": "Diam nibh non in enim nunc suscipit risus, adipiscing aenean quisque viverra.",
+      "provenance": {
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceRoute": "/",
+        "rawIconPath": "/mega.svg",
+        "rawIconAlt": "Mega Standard"
+      }
+    },
+    {
+      "iconKey": "hyper-best",
+      "title": "NYT Best-selling Author 2014",
+      "body": "Urna donec dolor bibendum lectus arcu purus eget nisl, ut nisl vitae.",
+      "provenance": {
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceRoute": "/",
+        "rawIconPath": "/hyper-best.svg",
+        "rawIconAlt": "Hyper Best"
+      }
+    },
+    {
+      "iconKey": "ultimate-winer",
+      "title": "Best Author Awards 2018",
+      "body": "Morbi odio sodales et facilisis mi nibh fringilla quis risus ultricies facilisis.",
+      "provenance": {
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceRoute": "/",
+        "rawIconPath": "/ultimate-winer.svg",
+        "rawIconAlt": "Ultimate Winer"
+      }
+    }
+  ],
+  "newsletterCta": {
+    "heading": "Đăng ký để nhận thông tin mới nhất",
+    "body": "Nhận những thông tin mới nhất về sách, các ưu đãi, mã giảm giá và sử dụng ngay thôi nào.",
+    "provenance": {
+      "sourcePath": "legacy/src/app/page.tsx",
+      "sourceRoute": "/"
+    }
+  }
+}

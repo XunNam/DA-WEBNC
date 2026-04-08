@@ -1,0 +1,88 @@
+{
+  "layoutMetadata": {
+    "sourcePath": "legacy/src/app/layout.tsx",
+    "rawMetaTitle": "Bookstore | Trang chủ",
+    "rawMetaDescription": "Bookstore Website",
+    "rawIconPath": "icon.ico"
+  },
+  "navbar": {
+    "sourcePath": "legacy/src/app/components/Navbar.tsx",
+    "rawLogoPath": "/site-logo.svg",
+    "rawCartDisplayText": "0.00 VNĐ"
+  },
+  "navLinks": {
+    "sourcePath": "legacy/src/app/components/NavbarLink.tsx",
+    "items": [
+      {
+        "rawHref": "/",
+        "rawTarget": null,
+        "rawText": "Trang chủ"
+      },
+      {
+        "rawHref": "/booksPage",
+        "rawTarget": null,
+        "rawText": "Sách"
+      },
+      {
+        "rawHref": "/authorsPage",
+        "rawTarget": null,
+        "rawText": "Tác giả"
+      },
+      {
+        "rawHref": "/",
+        "rawTarget": null,
+        "rawText": "Về chúng tôi?"
+      },
+      {
+        "rawHref": "http://127.0.0.1:8501",
+        "rawTarget": "_blank",
+        "rawText": "Tư vấn"
+      }
+    ]
+  },
+  "footer": {
+    "sourcePath": "legacy/src/app/components/Footer.tsx",
+    "rawLogoPath": "/site-logo-white.svg",
+    "rawFooterLegalText": "Lập trình ứng dụng web | 0502",
+    "rawFooterLinks": [
+      {
+        "rawText": "Trang chủ",
+        "rawHref": "/"
+      },
+      {
+        "rawText": "Sách",
+        "rawHref": "/booksPage"
+      },
+      {
+        "rawText": "Tác giả",
+        "rawHref": "/authorsPage"
+      },
+      {
+        "rawText": "Về chúng tôi?",
+        "rawHref": "/"
+      },
+      {
+        "rawText": "Liên hệ",
+        "rawHref": "/"
+      }
+    ],
+    "rawSocialIcons": [
+      {
+        "rawClassName": "bi bi-instagram",
+        "rawPlatform": "instagram"
+      },
+      {
+        "rawClassName": "bi bi-facebook",
+        "rawPlatform": "facebook"
+      },
+      {
+        "rawClassName": "bi bi-youtube",
+        "rawPlatform": "youtube"
+      },
+      {
+        "rawClassName": "bi bi-twitter-x",
+        "rawPlatform": "twitter-x"
+      }
+    ]
+  }
+}

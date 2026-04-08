@@ -1,0 +1,64 @@
+{
+  "created": {
+    "id": "69ca5f9ada66f562abbb17c4",
+    "filename": "batch-01-test-image.png",
+    "mimeType": "image/png",
+    "filesize": 68,
+    "url": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image.png"
+  },
+  "beforeDeleteChecks": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    }
+  ],
+  "afterDeleteChecks": [
+    {
+      "attempt": 1,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 2,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 3,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 4,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    },
+    {
+      "attempt": 5,
+      "ok": true,
+      "status": 200,
+      "statusText": "OK"
+    }
+  ],
+  "mediaDocumentDeleted": true,
+  "findAfterDeleteError": "Not Found",
+  "r2ObjectDeletedByUrlCheck": false
+}

@@ -1,0 +1,393 @@
+{
+  "status": "pass",
+  "summary": {
+    "totalChecks": 59,
+    "passedChecks": 59,
+    "failedChecks": 0,
+    "warningCount": 3,
+    "errorCount": 0
+  },
+  "checks": {
+    "artifact:books.raw.json": {
+      "status": "pass"
+    },
+    "artifact:authors.raw.json": {
+      "status": "pass"
+    },
+    "artifact:homepage.raw.json": {
+      "status": "pass"
+    },
+    "artifact:site-settings.raw.json": {
+      "status": "pass"
+    },
+    "artifact:books.normalized.json": {
+      "status": "pass"
+    },
+    "artifact:authors.normalized.json": {
+      "status": "pass"
+    },
+    "artifact:homepage.normalized.json": {
+      "status": "pass"
+    },
+    "artifact:site-settings.normalized.json": {
+      "status": "pass"
+    },
+    "artifact:assets-map.json": {
+      "status": "pass"
+    },
+    "artifact:slug-map.json": {
+      "status": "pass"
+    },
+    "artifact:editorial-holds.json": {
+      "status": "pass"
+    },
+    "artifact:redirects.generated.json": {
+      "status": "pass"
+    },
+    "artifact:redirects.manual-review.json": {
+      "status": "pass"
+    },
+    "raw-counts:books": {
+      "status": "pass",
+      "expected": 17,
+      "observed": 17
+    },
+    "raw-counts:authors": {
+      "status": "pass",
+      "expected": 17,
+      "observed": 17
+    },
+    "raw-structure:homepage": {
+      "status": "pass",
+      "observed": [
+        "hero",
+        "authorSpotlight",
+        "awards",
+        "bestSellers",
+        "newsletterCta"
+      ]
+    },
+    "raw-structure:site-settings": {
+      "status": "pass",
+      "observed": [
+        "layoutMetadata",
+        "navbar",
+        "navLinks",
+        "footer"
+      ]
+    },
+    "normalized-counts:books": {
+      "status": "pass",
+      "expected": 13,
+      "observed": 13
+    },
+    "normalized-counts:authors": {
+      "status": "pass",
+      "expected": 8,
+      "observed": 8
+    },
+    "normalized-counts:assets": {
+      "status": "pass",
+      "expected": 28,
+      "observed": 28
+    },
+    "books:type-labels": {
+      "status": "pass",
+      "expected": [
+        "Tiểu thuyết",
+        "Truyện dài",
+        "Truyện ngắn",
+        "Truyện thơ"
+      ],
+      "observed": [
+        "Tiểu thuyết",
+        "Truyện dài",
+        "Truyện ngắn",
+        "Truyện thơ"
+      ]
+    },
+    "books:hero-exists": {
+      "status": "pass"
+    },
+    "books:hero-catalog-visible-false": {
+      "status": "pass",
+      "observed": false
+    },
+    "books:type-label-null-policy": {
+      "status": "pass",
+      "observed": [
+        {
+          "key": "book:ngay-xua-co-mot-chuyen-tinh",
+          "title": "Ngày xưa có một chuyện tình",
+          "catalogVisible": false
+        }
+      ]
+    },
+    "books:only-hero-hidden": {
+      "status": "pass",
+      "observed": [
+        {
+          "title": "Ngày xưa có một chuyện tình",
+          "key": "book:ngay-xua-co-mot-chuyen-tinh"
+        }
+      ]
+    },
+    "books:slug-uniqueness": {
+      "status": "pass",
+      "observed": [
+        "cam-on-nguoi-lon",
+        "canh-dong-bat-tan",
+        "chi-pheo",
+        "cho-toi-xin-mot-ve-di-tuoi-tho",
+        "doi-thua",
+        "ngay-xua-co-mot-chuyen-tinh",
+        "so-do",
+        "tat-den",
+        "toi-la-beto",
+        "toi-thay-hoa-vang-tren-co-xanh",
+        "truyen-kieu",
+        "vang-bong-mot-thoi",
+        "vo-nhat"
+      ]
+    },
+    "books:price-types": {
+      "status": "pass"
+    },
+    "books:raw-price-count": {
+      "status": "pass",
+      "expected": 23,
+      "observed": 23
+    },
+    "books:raw-prices-parseable": {
+      "status": "pass"
+    },
+    "authors:slug-uniqueness": {
+      "status": "pass",
+      "observed": [
+        "kim-lan",
+        "nam-cao",
+        "ngo-tat-to",
+        "nguyen-du",
+        "nguyen-ngoc-tu",
+        "nguyen-nhat-anh",
+        "nguyen-tuan",
+        "vu-trong-phung"
+      ]
+    },
+    "authors:no-public-biography-leak": {
+      "status": "pass"
+    },
+    "authors:biography-editorial-holds": {
+      "status": "pass",
+      "expected": 8,
+      "observed": 8
+    },
+    "homepage:top-level-structure": {
+      "status": "pass",
+      "observed": [
+        "hero",
+        "authorSpotlight",
+        "bestSellers",
+        "awards",
+        "newsletterCta"
+      ]
+    },
+    "homepage:hero-reference": {
+      "status": "pass",
+      "observed": "book:ngay-xua-co-mot-chuyen-tinh"
+    },
+    "homepage:author-spotlight-reference": {
+      "status": "pass",
+      "observed": "author:nguyen-nhat-anh"
+    },
+    "homepage:best-sellers-references": {
+      "status": "pass",
+      "observed": [
+        "book:cho-toi-xin-mot-ve-di-tuoi-tho",
+        "book:cam-on-nguoi-lon",
+        "book:toi-la-beto",
+        "book:toi-thay-hoa-vang-tren-co-xanh"
+      ]
+    },
+    "homepage:hero-short-copy-held": {
+      "status": "pass"
+    },
+    "homepage:author-spotlight-short-copy-held": {
+      "status": "pass"
+    },
+    "site-settings:no-nav-links": {
+      "status": "pass"
+    },
+    "site-settings:social-links-empty": {
+      "status": "pass",
+      "observed": []
+    },
+    "site-settings:footer-links-stable-subset": {
+      "status": "pass",
+      "expected": [
+        "/",
+        "/books",
+        "/authors"
+      ],
+      "observed": [
+        "/",
+        "/books",
+        "/authors"
+      ]
+    },
+    "site-settings:required-values-present": {
+      "status": "pass",
+      "observed": {
+        "siteName": "Bookstore",
+        "defaultMetaTitle": "Bookstore",
+        "defaultMetaDescription": "Bookstore Website"
+      }
+    },
+    "site-settings:reviewable-metadata": {
+      "status": "pass"
+    },
+    "assets:count": {
+      "status": "pass",
+      "expected": 28,
+      "observed": 28
+    },
+    "assets:orphan-book-store": {
+      "status": "pass",
+      "observed": {
+        "assetPath": "/book-store.png",
+        "assetType": "orphan-asset",
+        "migrationRole": "manual-review",
+        "referenceStatus": "orphan",
+        "referenceCount": 0,
+        "referencedBy": [],
+        "notes": [
+          "Legacy public asset exists on disk but is not referenced by the approved raw artifacts."
+        ]
+      }
+    },
+    "assets:author-portraits-role": {
+      "status": "pass"
+    },
+    "assets:book-covers-role": {
+      "status": "pass"
+    },
+    "assets:static-assets-role": {
+      "status": "pass"
+    },
+    "slug-map:entity-coverage": {
+      "status": "pass",
+      "expected": {
+        "books": 13,
+        "authors": 8
+      },
+      "observed": {
+        "books": 13,
+        "authors": 8
+      }
+    },
+    "slug-map:author-slug-uniqueness": {
+      "status": "pass"
+    },
+    "slug-map:book-slug-uniqueness": {
+      "status": "pass"
+    },
+    "slug-map:legacy-route-context": {
+      "status": "pass"
+    },
+    "slug-map:slug-shape": {
+      "status": "pass"
+    },
+    "redirects:generated-count": {
+      "status": "pass",
+      "expected": 10,
+      "observed": 10
+    },
+    "redirects:generated-scope": {
+      "status": "pass",
+      "observed": [
+        "/authorsPage",
+        "/authorsPage/kimLan",
+        "/authorsPage/namCao",
+        "/authorsPage/ngoTatTo",
+        "/authorsPage/nguyenDu",
+        "/authorsPage/nguyenNgocTu",
+        "/authorsPage/nguyenNhatAnh",
+        "/authorsPage/nguyenTuan",
+        "/authorsPage/vuTrongPhung",
+        "/booksPage"
+      ]
+    },
+    "redirects:author-detail-destinations": {
+      "status": "pass",
+      "observed": [
+        {
+          "source": "/authorsPage/kimLan",
+          "destination": "/authors/kim-lan"
+        },
+        {
+          "source": "/authorsPage/namCao",
+          "destination": "/authors/nam-cao"
+        },
+        {
+          "source": "/authorsPage/ngoTatTo",
+          "destination": "/authors/ngo-tat-to"
+        },
+        {
+          "source": "/authorsPage/nguyenDu",
+          "destination": "/authors/nguyen-du"
+        },
+        {
+          "source": "/authorsPage/nguyenNgocTu",
+          "destination": "/authors/nguyen-ngoc-tu"
+        },
+        {
+          "source": "/authorsPage/nguyenNhatAnh",
+          "destination": "/authors/nguyen-nhat-anh"
+        },
+        {
+          "source": "/authorsPage/nguyenTuan",
+          "destination": "/authors/nguyen-tuan"
+        },
+        {
+          "source": "/authorsPage/vuTrongPhung",
+          "destination": "/authors/vu-trong-phung"
+        }
+      ]
+    },
+    "redirects:sorted-and-unique": {
+      "status": "pass"
+    },
+    "redirects:manual-review-buy-book-page": {
+      "status": "pass",
+      "observed": [
+        "/buyBookPage"
+      ]
+    },
+    "redirects:no-manual-review-leak": {
+      "status": "pass"
+    }
+  },
+  "warnings": [
+    {
+      "code": "site-settings:site-name-inferred",
+      "message": "siteName is inferred from layout metadata title prefix and should be manually reviewed.",
+      "context": {
+        "rawValue": "Bookstore | Trang chủ",
+        "sourcePath": "legacy/src/app/layout.tsx"
+      }
+    },
+    {
+      "code": "site-settings:default-meta-title-inferred",
+      "message": "defaultMetaTitle is inferred from layout metadata title prefix and should be manually reviewed.",
+      "context": {
+        "rawValue": "Bookstore | Trang chủ",
+        "sourcePath": "legacy/src/app/layout.tsx"
+      }
+    },
+    {
+      "code": "pipeline-boundary:dry-run-tooling-present",
+      "message": "dry-run-import.ts exists. This is expected once later stages are implemented and should not fail artifact validation."
+    }
+  ],
+  "errors": []
+}

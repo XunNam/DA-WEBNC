@@ -1,0 +1,7 @@
+[
+  {
+    "source": "/buyBookPage",
+    "reason": "No approved canonical v1 destination.",
+    "suggestedAction": "manual-review"
+  }
+]

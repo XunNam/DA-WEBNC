@@ -1,0 +1,781 @@
+{
+  "generatedAt": "2026-03-30T13:20:06.913Z",
+  "mode": "audit-and-plan",
+  "writesPerformed": false,
+  "liveInventory": {
+    "totalMediaDocs": 21,
+    "byUrlCategory": {
+      "r2-style": 21,
+      "local-path": 0,
+      "missing-url": 0,
+      "other": 0
+    },
+    "byObjectStatus": {
+      "object-present": 0,
+      "object-missing": 21,
+      "manual-review": 0
+    },
+    "docs": [
+      {
+        "id": "69c955adceeeeece73e68ac3",
+        "filename": "cam-on-nguoi-lon.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/cam-on-nguoi-lon.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "cam-on-nguoi-lon.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "cam-on-nguoi-lon.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\cam-on-nguoi-lon.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/home/cam-on-nguoi-lon.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/home/cam-on-nguoi-lon.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\home\\cam-on-nguoi-lon.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a9d",
+        "filename": "canh-dong-bat-tan.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/canh-dong-bat-tan.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "canh-dong-bat-tan.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "canh-dong-bat-tan.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\canh-dong-bat-tan.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/canh-dong-bat-tan.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/canh-dong-bat-tan.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\canh-dong-bat-tan.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68aa7",
+        "filename": "chi-pheo.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/chi-pheo.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "chi-pheo.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "chi-pheo.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\chi-pheo.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/chi-pheo.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/chi-pheo.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\chi-pheo.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68ac7",
+        "filename": "cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\home\\cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68aab",
+        "filename": "doi-thua.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/doi-thua.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "doi-thua.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "doi-thua.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\doi-thua.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/doi-thua.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/doi-thua.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\doi-thua.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a5a",
+        "filename": "kim-lan.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/kim-lan.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "kim-lan.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "kim-lan.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\kim-lan.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/kim-lan.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/kim-lan.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\kim-lan.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a69",
+        "filename": "nam-cao.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/nam-cao.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "nam-cao.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "nam-cao.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\nam-cao.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/nam-cao.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/nam-cao.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\nam-cao.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68acb",
+        "filename": "ngay-xua-co-mot-chuyen-tinh.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/ngay-xua-co-mot-chuyen-tinh.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "ngay-xua-co-mot-chuyen-tinh.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "ngay-xua-co-mot-chuyen-tinh.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\ngay-xua-co-mot-chuyen-tinh.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/home/ngay-xua-co-mot-chuyen-tinh.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/home/ngay-xua-co-mot-chuyen-tinh.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\home\\ngay-xua-co-mot-chuyen-tinh.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a70",
+        "filename": "ngo-tat-to.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/ngo-tat-to.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "ngo-tat-to.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "ngo-tat-to.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\ngo-tat-to.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/ngo-tat-to.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/ngo-tat-to.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\ngo-tat-to.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a79",
+        "filename": "nguyen-du.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/nguyen-du.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "nguyen-du.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "nguyen-du.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\nguyen-du.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/nguyen-du.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/nguyen-du.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\nguyen-du.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a7f",
+        "filename": "nguyen-ngoc-tu.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/nguyen-ngoc-tu.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "nguyen-ngoc-tu.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "nguyen-ngoc-tu.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\nguyen-ngoc-tu.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/nguyen-ngoc-tu.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/nguyen-ngoc-tu.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\nguyen-ngoc-tu.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a86",
+        "filename": "nguyen-nhat-anh.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/nguyen-nhat-anh.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "nguyen-nhat-anh.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "nguyen-nhat-anh.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\nguyen-nhat-anh.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/nguyen-nhat-anh.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/nguyen-nhat-anh.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\nguyen-nhat-anh.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a8c",
+        "filename": "nguyen-tuan.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/nguyen-tuan.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "nguyen-tuan.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "nguyen-tuan.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\nguyen-tuan.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/nguyen-tuan.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/nguyen-tuan.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\nguyen-tuan.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68aaf",
+        "filename": "so-do.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/so-do.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "so-do.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "so-do.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\so-do.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/so-do.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/so-do.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\so-do.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68ab3",
+        "filename": "tat-den.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/tat-den.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "tat-den.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "tat-den.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\tat-den.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/tat-den.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/tat-den.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\tat-den.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68acf",
+        "filename": "toi-la-beto.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/toi-la-beto.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "toi-la-beto.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "toi-la-beto.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\toi-la-beto.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/home/toi-la-beto.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/home/toi-la-beto.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\home\\toi-la-beto.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68ad3",
+        "filename": "toi-thay-hoa-vang-tren-co-xanh.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/toi-thay-hoa-vang-tren-co-xanh.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "toi-thay-hoa-vang-tren-co-xanh.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "toi-thay-hoa-vang-tren-co-xanh.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\toi-thay-hoa-vang-tren-co-xanh.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/home/toi-thay-hoa-vang-tren-co-xanh.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\home\\toi-thay-hoa-vang-tren-co-xanh.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68ab7",
+        "filename": "truyen-kieu.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/truyen-kieu.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "truyen-kieu.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "truyen-kieu.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\truyen-kieu.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/truyen-kieu.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/truyen-kieu.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\truyen-kieu.jpg"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68abb",
+        "filename": "vang-bong-mot-thoi.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/vang-bong-mot-thoi.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "vang-bong-mot-thoi.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "vang-bong-mot-thoi.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\vang-bong-mot-thoi.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/vang-bong-mot-thoi.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/vang-bong-mot-thoi.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\vang-bong-mot-thoi.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68abf",
+        "filename": "vo-nhat.webp",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/vo-nhat.webp",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "vo-nhat.webp"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "vo-nhat.webp",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\vo-nhat.webp",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/books/vo-nhat.webp"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/books/vo-nhat.webp",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\books\\vo-nhat.webp"
+          }
+        ]
+      },
+      {
+        "id": "69c955adceeeeece73e68a99",
+        "filename": "vu-trong-phung.jpg",
+        "url": "https://da-webnc-bookstore-media.xuannam.xyz/vu-trong-phung.jpg",
+        "urlCategory": "r2-style",
+        "candidateKeys": [
+          "vu-trong-phung.jpg"
+        ],
+        "objectStatus": "object-missing",
+        "resolvedKey": null,
+        "headChecks": [
+          {
+            "status": "missing",
+            "key": "vu-trong-phung.jpg",
+            "httpStatusCode": 404
+          }
+        ],
+        "headMeta": null,
+        "plannedAction": "update-in-place",
+        "sourceResolution": "media-dir",
+        "sourcePath": "D:\\Đồ án\\DA-WEBNC\\media\\vu-trong-phung.jpg",
+        "sourceAssetPath": null,
+        "localMediaExists": true,
+        "assetMapMatches": [
+          "/author/vu-trong-phung.jpg"
+        ],
+        "resolvableLegacyPaths": [
+          {
+            "assetPath": "/author/vu-trong-phung.jpg",
+            "filePath": "D:\\Đồ án\\DA-WEBNC\\legacy\\public\\author\\vu-trong-phung.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "localSourceAvailability": {
+    "mediaDir": {
+      "directory": "D:\\Đồ án\\DA-WEBNC\\media",
+      "existingFilesCount": 21,
+      "candidateFilenamesFound": 21
+    },
+    "legacyFallback": {
+      "directory": "D:\\Đồ án\\DA-WEBNC\\legacy\\public",
+      "candidateAssetsCount": 21,
+      "resolvableCount": 21
+    },
+    "sourceSummary": {
+      "mediaDirExactMatches": 21,
+      "legacyFallbackMatches": 0,
+      "unresolved": 0,
+      "ambiguousAssetMapMatches": 0
+    }
+  },
+  "safetyChecks": {
+    "duplicateDocsByFilename": [],
+    "relationCoverage": {
+      "books": 13,
+      "authors": 8,
+      "homepage": 0,
+      "siteSettings": 0,
+      "referencedUniqueMedia": 21,
+      "unreferencedCount": 0,
+      "unreferencedMedia": []
+    }
+  },
+  "actionSummary": {
+    "skip-object-present": 0,
+    "update-in-place": 21,
+    "create-missing": 0,
+    "manual-review": 0,
+    "updateInPlaceIds": [
+      "69c955adceeeeece73e68ac3",
+      "69c955adceeeeece73e68a9d",
+      "69c955adceeeeece73e68aa7",
+      "69c955adceeeeece73e68ac7",
+      "69c955adceeeeece73e68aab",
+      "69c955adceeeeece73e68a5a",
+      "69c955adceeeeece73e68a69",
+      "69c955adceeeeece73e68acb",
+      "69c955adceeeeece73e68a70",
+      "69c955adceeeeece73e68a79",
+      "69c955adceeeeece73e68a7f",
+      "69c955adceeeeece73e68a86",
+      "69c955adceeeeece73e68a8c",
+      "69c955adceeeeece73e68aaf",
+      "69c955adceeeeece73e68ab3",
+      "69c955adceeeeece73e68acf",
+      "69c955adceeeeece73e68ad3",
+      "69c955adceeeeece73e68ab7",
+      "69c955adceeeeece73e68abb",
+      "69c955adceeeeece73e68abf",
+      "69c955adceeeeece73e68a99"
+    ],
+    "manualReviewIds": []
+  },
+  "conclusion": {
+    "objectPresent": 0,
+    "objectMissing": 21,
+    "manualReview": 0,
+    "writePassNeeded": true,
+    "noOp": false
+  }
+}

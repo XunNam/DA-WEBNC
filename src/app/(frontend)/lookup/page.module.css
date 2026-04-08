@@ -1,0 +1,410 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px 90px;
+}
+
+.header {
+  padding: 50px 0 24px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.formSection,
+.resultSection {
+  min-width: 0;
+}
+
+.formCard,
+.resultCard {
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.06);
+}
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 24px;
+}
+
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 24px;
+}
+
+.sectionHeading,
+.itemTitle {
+  margin: 0;
+  font-weight: 700;
+}
+
+.sectionHeading {
+  font-size: clamp(28px, 3.5vw, 34px);
+  line-height: 1.2;
+}
+
+.sectionText,
+.label,
+.errorText,
+.submitErrorText,
+.resultEyebrow,
+.metaLabel,
+.metaValue,
+.toastMessage {
+  margin: 0;
+}
+
+.sectionText {
+  color: #62666c;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.label {
+  color: #4b5563;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d7dce3;
+  border-radius: 12px;
+  background: #fff;
+  color: #25272d;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 13px 15px;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: #4d3bc6;
+  box-shadow: 0 0 0 4px rgba(77, 59, 198, 0.08);
+  outline: none;
+}
+
+.input[aria-invalid='true'] {
+  border-color: #c34c4c;
+  box-shadow: 0 0 0 4px rgba(195, 76, 76, 0.08);
+}
+
+.submitButton:focus-visible,
+.toastCloseButton:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.errorText {
+  color: #b53d3d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.submitSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submitErrorBox {
+  padding: 12px 14px;
+  border: 1px solid rgba(181, 61, 61, 0.18);
+  border-radius: 12px;
+  background: #fff5f5;
+}
+
+.submitErrorText {
+  color: #a73a3a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.submitButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  background: #4d3bc6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.submitButton:hover {
+  background: #3f30a3;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(77, 59, 198, 0.16);
+}
+
+.submitButton:disabled {
+  background: #8d82cf;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+
+.resultHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.resultHeaderText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resultEyebrow {
+  color: #4d3bc6;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.metaList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+}
+
+.metaRow,
+.itemMetaRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.metaLabel {
+  color: #62666c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.metaValue {
+  color: #25272d;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.statusBadgeInTransit {
+  background: #f0f1f4;
+  color: #555b65;
+}
+
+.statusBadgeDelivered {
+  background: #ecf9f1;
+  color: #1f6c50;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.itemCard {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 16px;
+  background: #fafafb;
+}
+
+.coverFrame {
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #eef0f4;
+}
+
+.coverImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemBody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.itemMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+}
+
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: min(100%, 360px);
+  padding: 14px 16px;
+  border: 1px solid rgba(181, 61, 61, 0.18);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 18px 38px rgba(37, 39, 45, 0.16);
+}
+
+.toastMessage {
+  flex: 1;
+  color: #a73a3a;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.toastCloseButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 8px 14px;
+  border: 1px solid #e1e5ea;
+  border-radius: 999px;
+  background: #fff;
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.toastCloseButton:hover {
+  border-color: #cfd4da;
+  background: #f6f7f9;
+  color: #25272d;
+}
+
+@media (max-width: 720px) {
+  .fieldGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .itemCard {
+    grid-template-columns: 1fr;
+  }
+
+  .coverFrame {
+    max-width: 110px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 20px 72px;
+  }
+
+  .header {
+    padding-top: 40px;
+  }
+
+  .formCard,
+  .resultCard {
+    padding: 20px;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+
+  .toast {
+    right: 16px;
+    bottom: 16px;
+    left: 16px;
+    width: auto;
+  }
+}

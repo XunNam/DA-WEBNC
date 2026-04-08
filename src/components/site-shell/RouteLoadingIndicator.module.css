@@ -1,0 +1,51 @@
+.indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 35;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 10px 14px;
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 12px 28px rgba(37, 39, 45, 0.12);
+  color: #25272d;
+  backdrop-filter: blur(10px);
+}
+
+.spinner {
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(77, 59, 198, 0.22);
+  border-top-color: #4d3bc6;
+  border-radius: 999px;
+  animation: spin 0.8s linear infinite;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .indicator {
+    top: 16px;
+    right: 16px;
+    max-width: calc(100vw - 32px);
+  }
+
+  .label {
+    font-size: 13px;
+  }
+}

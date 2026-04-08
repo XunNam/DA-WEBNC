@@ -1,0 +1,310 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px 90px;
+}
+
+.heading {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+  font-size: clamp(40px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 48px 56px;
+  justify-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.1);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card:hover .imageWrap,
+.card:focus-within .imageWrap {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(37, 39, 45, 0.16);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+  transition:
+    filter 0.25s ease,
+    transform 0.25s ease;
+}
+
+.overlay {
+  display: none;
+}
+
+.actionRow,
+.overlayActions {
+  display: grid;
+  gap: 10px;
+}
+
+.actionRow {
+  margin-top: 14px;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  width: 100%;
+  padding: 11px 18px;
+  border: 1px solid #25272d;
+  border-radius: 10px;
+  background: #fff;
+  color: #25272d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.actionLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  width: 100%;
+  padding: 11px 18px;
+  border: 1px solid #25272d;
+  border-radius: 10px;
+  background: #fff;
+  color: #25272d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.primaryActionButton {
+  border-color: #4d3bc6;
+  background: #4d3bc6;
+  color: #fff;
+}
+
+.actionLink:hover,
+.actionButton:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(37, 39, 45, 0.1);
+}
+
+.primaryActionButton:hover:not(:disabled) {
+  background: #3f30a3;
+  border-color: #3f30a3;
+}
+
+.actionButton:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.actionLink:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.actionButton:disabled {
+  border-color: #d4d7dd;
+  background: #f3f4f6;
+  color: #95989d;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.primaryActionButton:disabled {
+  border-color: #d4d7dd;
+  background: #e6e7eb;
+  color: #95989d;
+}
+
+.typeLabel,
+.author,
+.price,
+.compareAtPrice {
+  margin: 0;
+}
+
+.typeLabel {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #95989d;
+}
+
+.title {
+  margin: 6px 0 0;
+  min-height: 2.9em;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 24px;
+  line-height: 1.45;
+  font-weight: 700;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.author {
+  margin-top: 4px;
+  font-size: 16px;
+  color: #62666c;
+}
+
+.priceRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.price,
+.compareAtPrice {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.price {
+  color: #565a61;
+}
+
+.compareAtPrice {
+  color: #a4a7ac;
+  text-decoration: line-through;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background: rgba(13, 15, 19, 0.22);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+
+  .overlayActions {
+    width: 100%;
+  }
+
+  .card:hover .overlay,
+  .card:focus-within .overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .card:hover .image,
+  .card:focus-within .image {
+    filter: blur(5px);
+    transform: scale(1.03);
+  }
+
+  .card .actionRow {
+    display: none;
+  }
+
+  .overlay .actionLink,
+  .overlay .actionButton {
+    background: rgba(255, 255, 255, 0.96);
+  }
+
+  .overlay .primaryActionButton {
+    background: #4d3bc6;
+    color: #fff;
+  }
+
+  .overlay .actionButton:disabled {
+    background: rgba(243, 244, 246, 0.96);
+  }
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 20px 72px;
+  }
+
+  .heading {
+    padding: 40px 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .actionButton {
+    min-height: 42px;
+    font-size: 14px;
+  }
+
+  .actionLink {
+    min-height: 42px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,22 @@
+TK VALUE
+
+cfat_uMpNV51xzRMD5pkmlORUux2rgLqby7rdwghOsIhva51438f2
+
+AC KEY ID
+
+03837b7d4b18e7ed82022650c1b26669
+
+SC KEY ID
+
+3a1a5406835120a7ac983b99c3dbcf9212cc127dec0ddab0d6a12fdee72e0b6c
+
+END_POINT
+
+https://9c859025c6846882c3aa9bad45b2a370.r2.cloudflarestorage.com
+
+
+R2_BUCKET=da-webnc-bookstore-media
+R2_ACCESS_KEY_ID=03837b7d4b18e7ed82022650c1b26669
+R2_SECRET_ACCESS_KEY=3a1a5406835120a7ac983b99c3dbcf9212cc127dec0ddab0d6a12fdee72e0b6c
+R2_ENDPOINT=https://9c859025c6846882c3aa9bad45b2a370.r2.cloudflarestorage.com
+R2_PUBLIC_URL=https://da-webnc-bookstore-media.xuannam.xyz

@@ -1,0 +1,268 @@
+{
+  "status": "pass",
+  "summary": {
+    "totalChecks": 52,
+    "passedChecks": 52,
+    "failedChecks": 0,
+    "warningCount": 3,
+    "errorCount": 0
+  },
+  "checks": {
+    "config:import": {
+      "status": "pass"
+    },
+    "validation:qa-report-pass": {
+      "status": "pass",
+      "observed": "pass"
+    },
+    "artifacts:redirects-available": {
+      "status": "pass"
+    },
+    "runtime:collection-books": {
+      "status": "pass"
+    },
+    "runtime:collection-authors": {
+      "status": "pass"
+    },
+    "runtime:collection-media": {
+      "status": "pass"
+    },
+    "runtime:global-homepage": {
+      "status": "pass"
+    },
+    "runtime:global-siteSettings": {
+      "status": "pass"
+    },
+    "drafts:books-enabled": {
+      "status": "pass"
+    },
+    "books-config:title-field": {
+      "status": "pass"
+    },
+    "books-config:slug-field": {
+      "status": "pass"
+    },
+    "books-config:author-field": {
+      "status": "pass"
+    },
+    "books-config:cover-image-field": {
+      "status": "pass"
+    },
+    "books-config:type-label-field": {
+      "status": "pass"
+    },
+    "books-config:catalog-visible-field": {
+      "status": "pass"
+    },
+    "books-config:price-fields": {
+      "status": "pass"
+    },
+    "books-config:seo-fields": {
+      "status": "pass"
+    },
+    "books-dry-run:required-fields": {
+      "status": "pass",
+      "observed": []
+    },
+    "books-dry-run:type-label-presence-policy": {
+      "status": "pass",
+      "observed": [
+        {
+          "key": "book:ngay-xua-co-mot-chuyen-tinh",
+          "title": "Ngày xưa có một chuyện tình",
+          "catalogVisible": false
+        }
+      ]
+    },
+    "books-dry-run:type-label-options": {
+      "status": "pass",
+      "observed": [
+        {
+          "key": "book:cam-on-nguoi-lon",
+          "typeLabel": "Truyện dài"
+        },
+        {
+          "key": "book:canh-dong-bat-tan",
+          "typeLabel": "Tiểu thuyết"
+        },
+        {
+          "key": "book:chi-pheo",
+          "typeLabel": "Truyện ngắn"
+        },
+        {
+          "key": "book:cho-toi-xin-mot-ve-di-tuoi-tho",
+          "typeLabel": "Truyện ngắn"
+        },
+        {
+          "key": "book:doi-thua",
+          "typeLabel": "Truyện ngắn"
+        },
+        {
+          "key": "book:ngay-xua-co-mot-chuyen-tinh",
+          "typeLabel": null
+        },
+        {
+          "key": "book:so-do",
+          "typeLabel": "Tiểu thuyết"
+        },
+        {
+          "key": "book:tat-den",
+          "typeLabel": "Tiểu thuyết"
+        },
+        {
+          "key": "book:toi-la-beto",
+          "typeLabel": "Truyện ngắn"
+        },
+        {
+          "key": "book:toi-thay-hoa-vang-tren-co-xanh",
+          "typeLabel": "Tiểu thuyết"
+        },
+        {
+          "key": "book:truyen-kieu",
+          "typeLabel": "Truyện thơ"
+        },
+        {
+          "key": "book:vang-bong-mot-thoi",
+          "typeLabel": "Truyện ngắn"
+        },
+        {
+          "key": "book:vo-nhat",
+          "typeLabel": "Truyện ngắn"
+        }
+      ]
+    },
+    "books-dry-run:author-resolution": {
+      "status": "pass"
+    },
+    "books-dry-run:cover-image-resolution": {
+      "status": "pass"
+    },
+    "books-dry-run:hero-catalog-visible": {
+      "status": "pass"
+    },
+    "books-dry-run:no-editorial-hold-leak": {
+      "status": "pass"
+    },
+    "drafts:authors-enabled": {
+      "status": "pass"
+    },
+    "authors-config:name-field": {
+      "status": "pass"
+    },
+    "authors-config:slug-field": {
+      "status": "pass"
+    },
+    "authors-config:portrait-field": {
+      "status": "pass"
+    },
+    "authors-config:life-dates-field": {
+      "status": "pass"
+    },
+    "authors-config:seo-fields": {
+      "status": "pass"
+    },
+    "authors-dry-run:required-fields": {
+      "status": "pass"
+    },
+    "authors-dry-run:portrait-resolution": {
+      "status": "pass"
+    },
+    "authors-dry-run:no-biography-field-leak": {
+      "status": "pass"
+    },
+    "drafts:homepage-enabled": {
+      "status": "pass"
+    },
+    "homepage-config:hero-fields": {
+      "status": "pass"
+    },
+    "homepage-config:author-spotlight-fields": {
+      "status": "pass"
+    },
+    "homepage-config:best-sellers-fields": {
+      "status": "pass"
+    },
+    "homepage-config:awards-fields": {
+      "status": "pass"
+    },
+    "homepage-config:newsletter-fields": {
+      "status": "pass"
+    },
+    "homepage-config:seo-fields": {
+      "status": "pass"
+    },
+    "homepage-dry-run:references-resolve": {
+      "status": "pass"
+    },
+    "homepage-dry-run:award-icon-options": {
+      "status": "pass"
+    },
+    "homepage-dry-run:editorial-holds-resolve": {
+      "status": "pass"
+    },
+    "homepage-dry-run:no-editorial-hold-leak": {
+      "status": "pass"
+    },
+    "drafts:siteSettings-disabled": {
+      "status": "pass"
+    },
+    "site-settings-config:fields": {
+      "status": "pass"
+    },
+    "site-settings-dry-run:required-fields": {
+      "status": "pass"
+    },
+    "site-settings-dry-run:no-nav-links": {
+      "status": "pass"
+    },
+    "site-settings-dry-run:footer-links-shape": {
+      "status": "pass"
+    },
+    "site-settings-dry-run:social-links-shape": {
+      "status": "pass"
+    },
+    "site-settings-dry-run:no-editorial-hold-leak": {
+      "status": "pass"
+    },
+    "media-config:upload-enabled": {
+      "status": "pass"
+    }
+  },
+  "warnings": [
+    {
+      "code": "redirects:manual-review-entries-present",
+      "message": "Manual-review redirect entries remain correctly excluded from runtime redirects.",
+      "context": {
+        "sources": [
+          "/buyBookPage"
+        ]
+      }
+    },
+    {
+      "code": "site-settings:site-name-inferred",
+      "message": "siteName remains inferred and reviewable in site-settings.normalized.json.",
+      "context": {
+        "rawValue": "Bookstore | Trang chủ",
+        "sourcePath": "legacy/src/app/layout.tsx"
+      }
+    },
+    {
+      "code": "site-settings:default-meta-title-inferred",
+      "message": "defaultMetaTitle remains inferred and reviewable in site-settings.normalized.json.",
+      "context": {
+        "rawValue": "Bookstore | Trang chủ",
+        "sourcePath": "legacy/src/app/layout.tsx"
+      }
+    }
+  ],
+  "errors": [],
+  "dryRunSummary": {
+    "candidatePayloads": {
+      "authors": 8,
+      "books": 13,
+      "homepage": 1,
+      "siteSettings": 1
+    },
+    "importedConfig": true
+  }
+}

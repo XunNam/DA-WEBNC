@@ -1,0 +1,210 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px 90px;
+}
+
+.header {
+  padding: 50px 0 24px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.lead {
+  max-width: 760px;
+  margin: 18px auto 0;
+  color: #62666c;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contentStack {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.section,
+.sectionStack,
+.introStack {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionStack,
+.introStack {
+  gap: 24px;
+}
+
+.introBlock,
+.toolSection {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.06);
+}
+
+.blockHeading,
+.sectionTitle {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 36px);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sectionDescription,
+.richText,
+.toolDescription {
+  color: #62666c;
+  line-height: 1.8;
+}
+
+.toolGrid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.toolCard {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 16px;
+  padding: 22px;
+  border-radius: 18px;
+  background: #fcfcfd;
+  box-shadow: inset 0 0 0 1px rgba(37, 39, 45, 0.06);
+}
+
+.logoFrame {
+  width: 72px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #eef0f4;
+}
+
+.logoImage {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.toolBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toolLink,
+.toolName {
+  margin: 0;
+  color: #25272d;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.toolLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  color: #4d3bc6;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.toolLink:hover {
+  color: #3f30a3;
+}
+
+.linkIndicator {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.lead :global(p),
+.sectionDescription :global(p),
+.richText :global(p),
+.toolDescription :global(p) {
+  margin: 0;
+}
+
+.lead :global(p + p),
+.sectionDescription :global(p + p),
+.richText :global(p + p),
+.toolDescription :global(p + p) {
+  margin-top: 12px;
+}
+
+.lead :global(ul),
+.lead :global(ol),
+.sectionDescription :global(ul),
+.sectionDescription :global(ol),
+.richText :global(ul),
+.richText :global(ol),
+.toolDescription :global(ul),
+.toolDescription :global(ol) {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.lead :global(li + li),
+.sectionDescription :global(li + li),
+.richText :global(li + li),
+.toolDescription :global(li + li) {
+  margin-top: 8px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 20px 72px;
+  }
+
+  .header {
+    padding-top: 40px;
+  }
+
+  .contentStack {
+    gap: 40px;
+  }
+
+  .introBlock,
+  .toolSection {
+    padding: 22px;
+  }
+
+  .toolGrid {
+    grid-template-columns: 1fr;
+  }
+}

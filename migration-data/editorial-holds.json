@@ -1,0 +1,190 @@
+[
+  {
+    "holdKey": "author-biography:kim-lan",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:kim-lan",
+    "sourcePath": "legacy/src/app/authorsPage/kimLan/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/kimLan",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nguyễn Văn Tài (1 tháng 8 năm 1920 - 20 tháng 7 năm 2007), thường được biết đến với bút danh Kim Lân, là một nhà văn, diễn viên Việt Nam. Ông được biết đến với các tác phẩm văn học như Vợ nhặt, Làng. Ngoài ra ông cũng được biết đến qua vai diễn Lão Hạc trong phim Làng Vũ Đại ngày ấy.",
+      "Ông quê ở làng Phù Lưu, xã Tân Hồng, huyện Từ Sơn (nay thuộc phường Đông Ngàn, thành phố Từ Sơn), tỉnh Bắc Ninh. Do hoàn cảnh gia đình khó khăn, ông chỉ được học hết bậc tiểu học rồi phải đi làm. Kim Lân bắt đầu viết truyện ngắn từ năm 1941. Tác phẩm của ông được đăng trên các báo Tiểu thuyết thứ bảy và Trung Bắc chủ nhật. Một số truyện (Vợ nhặt, Đứa con người vợ lẽ, Đứa con người cô đầu và Cô Vịa) mang tính chất tự truyện nhưng đã thể hiện được không khí tiêu điều, ảm đạm của nông thôn Việt Nam và cuộc sống lam lũ, vất vả của người nông dân thời kỳ đó. Bút danh Kim Lân của ông được lấy từ tên của nhân vật Đổng Kim Lân trong Tuồng Sơn Hậu, một vai ông đã từng diễn.",
+      "Ông được dư luận chú ý nhiều hơn khi đi vào những đề tài độc đáo như tái hiện sinh hoạt văn hóa phong phú ở thôn quê (đánh vật, chọi gà và thả chim). Các truyện: Đôi chim thành, Con mã mái, Chó săn... kể lại một cách sinh động những thú chơi kể trên, qua đó biểu hiện một phần vẻ đẹp tâm hồn của người nông dân trước Cách mạng tháng Tám - những người sống cực nhọc, khổ nghèo nhưng vẫn yêu đời, trong sáng, tài hoa.",
+      "Sau Cách mạng tháng Tám, Kim Lân tiếp tục làm báo, viết văn. Ông vẫn chuyên về truyện ngắn và vẫn viết về làng quê Việt Nam - mảng hiện thực mà từ lâu ông đã hiểu biết sâu sắc. Những tác phẩm chính: Nên vợ nên chồng (tập truyện ngắn, 1955), Con chó xấu xí (tập truyện ngắn, 1962). Sinh thời ông sống tại Hà Nội. Nǎm 2001, Kim Lân được trao tặng Giải thưởng Nhà nước về văn học nghệ thuật. Ông từ trần năm 2007 tại Bệnh viện Hữu Nghị Hà Nội, sau một thời gian dài chống chọi với căn bệnh hen suyễn, hưởng thọ 86 tuổi."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Kim_L%C3%A2n",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:nam-cao",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nam-cao",
+    "sourcePath": "legacy/src/app/authorsPage/namCao/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/namCao",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nam Cao (nguyên danh Trần Hữu Tri, thánh danh Giuse, 29 tháng 10, năm 1915 hoặc 1917 – 30 tháng 11 năm 1951) là một nhà văn, nhà thơ, nhà báo và cũng là một chiến sĩ, liệt sĩ người Việt Nam. Ông là nhà văn hiện thực lớn (trước Cách mạng Tháng Tám), một nhà báo kháng chiến (sau Cách mạng), một trong những nhà văn tiêu biểu nhất thế kỷ 20. Nam Cao có nhiều đóng góp quan trọng đối với việc hoàn thiện phong cách truyện ngắn và tiểu thuyết Việt Nam ở nửa đầu thế kỷ 20.",
+      "Nam Cao tên khai sinh là Trần Hữu Tri (có nguồn ghi là Trần Hữu Trí), sinh ngày 29 tháng 10 năm 1915 nhưng giấy khai sinh ghi là 1917. Quê ông tại làng Đại Hoàng, tổng Cao Đà, huyện Nam Sang, phủ Lý Nhân (nay là xã Hòa Hậu, huyện Lý Nhân, tỉnh Hà Nam). Ông đã ghép hai chữ đầu tiên của tên tổng và huyện làm bút danh: Nam Cao.",
+      "Thuở nhỏ, Nam Cao học sơ học ở trường làng. Đến cấp tiểu học và bậc trung học, gia đình gửi ông xuống Nam Định học ở trường Cửa Bắc rồi trường Thành Chung (nay là trường Trung học phổ thông chuyên Lê Hồng Phong, Nam Định). 1934 học xong bậc trung học, nhưng bị ngã và đau ốm nên chưa thi lấy bằng Thành chung. Đầu năm 1935 cưới vợ, Trần Thị Sen (tên thánh Maria Sen), người cùng làng. Tháng 11/1935 Nam Cao vào Sài Gòn, ở lại đây 30 tháng, sống bằng nghề làm thư ký hiệu may Ba Lễ, đồng thời bắt đầu viết văn, gửi cho các báo. Năm 1936 được đăng các truyện ngắn \"Cảnh cuối cùng\" và \"Hai cái xác\" dưới bút danh Thúy Rư trên tuần báo Tiểu thuyết thứ bảy (Hà Nội). Năm 1937 được đăng các truyện ngắn \"Một bà hào hiệp\", \"Nghèo\", \"Đui mù\" dưới bút danh Thúy Rư trên Tiểu thuyết thứ bảy, Truyện \"Những cánh hoa tàn\" trên báo Ích Hữu (Hà Nội). Tháng 5 năm 1938, vì lí do sức khoẻ, Nam Cao trở ra Bắc, về quê.",
+      "Trở ra Bắc, sau khi tự học lại để thi lấy bằng Thành chung, Nam Cao lên Hà Nội dạy học ở Trường tư thục Công Thanh, trên đường Thụy Khuê, Hà Nội. Ông đưa in truyện ngắn Cái chết của con Mực trên báo Hà Nội tân văn (1940) và in thơ cũng trên báo này với các bút danh Xuân Du, Nguyệt. Năm 1941, tập truyện đầu tay Đôi lứa xứng đôi, tên trong bản thảo là Cái lò gạch cũ, với bút danh Nam Cao do Nhà xuất bản Đời mới Hà Nội ấn hành được đón nhận như là một hiện tượng văn học thời đó. Sau này khi in lại (1945), Nam Cao đã đổi tên là Chí Phèo. Phát xít Nhật xâm chiếm Đông Dương, trường sở bị trưng dụng, ông rời Hà Nội, về dạy học ở Trường tư thục Kỳ Giang, tỉnh Thái Bình, rồi về lại làng quê Đại Hoàng. Thời kỳ này, Nam Cao cho ra đời nhiều tác phẩm. Ông in truyện dài nhiều kỳ Truyện người hàng xóm trên tờ Trung Bắc Chủ nhật, viết xong tiểu thuyết Chết mòn, sau đổi là Sống mòn."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nam_Cao",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:ngo-tat-to",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:ngo-tat-to",
+    "sourcePath": "legacy/src/app/authorsPage/ngoTatTo/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/ngoTatTo",
+    "rawText": null,
+    "rawParagraphs": [
+      "Ngô Tất Tố (吳必做, 1893 – 20 tháng 4 năm 1954) là một nhà văn, nhà báo, nhà Nho học, dịch giả và nhà nghiên cứu có ảnh hưởng lớn ở Việt Nam giai đoạn trước 1954.",
+      "Ngô Tất Tố sinh năm 1893 (mất năm 1954) ở làng Lộc Hà, tổng Hội Phụ, phủ Từ Sơn, Bắc Ninh (nay là thôn Lộc Hà, xã Mai Lâm, huyện Đông Anh, Hà Nội). Ông là con thứ hai, nhưng là trưởng nam trong một gia đình có bảy anh chị em, ba trai, bốn gái. Lúc còn nhỏ Ngô Tất Tố được thụ hưởng một nền giáo dục Nho học. Từ năm 1898, Ngô Tất Tố được ông nội dạy vỡ lòng chữ Hán ở quê, sau đó ông theo học ở nhiều làng quê trong vùng. Năm 1912, Ngô Tất Tố học tư chữ Pháp một thời gian ngắn và bắt đầu tham dự các kỳ thi truyền thống lúc bấy giờ vẫn còn được triều đình nhà Nguyễn tổ chức. Ông đỗ kỳ sát hạch, nhưng thi hương bị hỏng ở kỳ đệ nhất. Đến năm 1915, ông đỗ đầu kỳ khảo hạch toàn tỉnh Bắc Ninh, nên được gọi là đầu xứ Tố, rồi thi hương lần thứ hai, khoa Ất Mão, cũng là khoa thi hương cuối cùng ở Bắc Kì. Ông qua được kỳ đệ nhất, nhưng bị hỏng ở kỳ đệ nhị.",
+      "Ngô Tất Tố không chỉ là nhà văn mà còn là một nhà báo nổi tiếng. Các tác giả nghiên cứu Di sản báo chí Ngô Tất Tố - ý nghĩa lý luận và thực tiễn đối với sự nghiệp phát triển báo chí thủ đô do Hội nhà báo thành phố Hà Nội thực hiện năm 2004 với người đứng đầu là giáo sư, nhà phê bình văn học Phan Cự Đệ cho biết họ tìm thấy 1.350 tác phẩm (gần 4.500 trang) đã đăng báo của Ngô Tất Tố với 59 bút danh khác nhau. Năm 2005 , tại hội thảo Những phát hiện mới về thân thế và tư cách nhà văn hóa của Ngô Tất Tố, một t hống kê khác được công bố cho biết trong 28 năm làm báo, Ngô Tất Tố đã viết gần 1.500 bài (mới tìm thấy 1.360 bài) cho 27 tờ báo và tạp chí với 29 bút danh.",
+      "Ngô Tất Tố viết nhiều thể loại báo chí, trong đó tiểu phẩm và phóng sự là hai thể loại đã giúp ông thành danh. Ông còn phụ trách nhiều chuyên mục của nhiều tờ báo hàng ngày và hàng tuần. Nhà văn, nhà báo kỳ cựu Vũ Bằng, trong Mười bốn gương mặt nhà văn đồng nghiệp (Nhà xuất bản Hội nhà văn, Hà Nội, 2004), từng khẳng định \"Ngô Tất Tố là một huấn luyện viên của tôi trong nghề báo\". Di sản báo chí của Ngô Tất Tố trở thành những tư liệu phong phú, chi tiết, phản ánh toán diện và trung thực xã hội Việt Nam đầu thế kỷ XX. Các tác giả trong đề tài nghiên cứu nói trên kết luận rằng tiểu phẩm báo chí của Ngô Tất Tố đạt được năm thành tựu cơ bản: thuyết phục, truyền cảm, điển hình hóa mà không hư cấu; nghệ thuật trào lộng, đả kích và phong cách đậm đà bản sắc dân tộc. Về thái độ làm báo, Ngô Tất Tố được đánh giá là một nhà báo có dũng khí, trung thực, thẳng thắn, nhạy bén và cập nhật tình hình khẩn cấp"
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Ng%C3%B4_T%E1%BA%A5t_T%E1%BB%91",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:nguyen-du",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nguyen-du",
+    "sourcePath": "legacy/src/app/authorsPage/nguyenDu/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/nguyenDu",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nguyễn Du (chữ Hán: 阮攸; 3 tháng 1 năm 1766 – 16 tháng 9 năm 1820) tên tự là Tố Như (素如), hiệu là Thanh Hiên (清軒), biệt hiệu là Hồng Sơn lạp hộ (鴻山獵戶), Nam Hải điếu đồ (南海釣屠), là một nhà thơ, nhà văn hóa lớn thời Lê mạt Nguyễn sơ ở Việt Nam. Ông được người Việt kính trọng tôn xưng là \"Đại thi hào dân tộc\" và được UNESCO vinh danh là \"Danh nhân văn hóa thế giới\". Tác phẩm Truyện Kiều của ông được xem là một kiệt tác văn học, một trong những thành tựu tiêu biểu nhất trong nền văn học trung đại Việt Nam.",
+      "Theo một bản gia phả của dòng họ Nguyễn ở huyện Nghi Xuân, Nguyễn Du sinh ngày 23 tháng 11 năm Ất Dậu (tức ngày 3 tháng 1 năm 1766 theo lịch Gregory; một số tài liệu ghi 1765) tại làng Tiên Điền, Nghi Xuân, Hà Tĩnh. Cha của Nguyễn Du là Nguyễn Nghiễm (1708 – 1775), sinh ở làng Tiên Điền, huyện Nghi Xuân, Hà Tĩnh, tên tự Hy Tư, hiệu Nghị Hiên, biệt hiệu là Hồng Ngự cư sĩ, đậu Nhị giáp tiến sĩ, làm quan đến chức Đại Tư đồ (Tể tướng), tước Xuân Quận công. Mẹ là bà Trần Thị Tần (24/8/1740 – 27/8/1778), con gái một người làm chức Câu kế. Bà Tần quê ở làng Hoa Thiều, xã Minh Đạo, huyện Tiên Du (Đông Ngàn), xứ Kinh Bắc, nay thuộc tỉnh Bắc Ninh. Bà Tần là vợ thứ ba của Nguyễn Nghiễm (kém chồng 32 tuổi, sinh được 5 con, bốn trai và một gái). Tổ tiên của Nguyễn Du, quê nội ở làng Tảo Dương, quê ngoại ở làng Canh Hoạch, huyện Thanh Oai, trấn Sơn Nam (nay thuộc Hà Nội), nổi tiếng với câu chuyện Trạng Cậu, Trạng Cháu (Trạng nguyên Nguyễn Đức Lượng và Trạng nguyên Nguyễn Thiến). Về sau, Nam Dương công Nguyễn Doãn Miện (tức Nguyễn Nhiệm, là cháu của Trạng nguyên Nguyễn Thiến) di cư vào Hà Tĩnh, trở thành vị tổ phụ của dòng họ Nguyễn Tiên Điền.",
+      "Năm Quý Hợi (1803), khi vua Gia Long ra Bắc, Nguyễn Du từ Quỳnh Hải đem quân lương đi đón vua Gia Long, đến Phù Dung, trấn Sơn Nam Thượng thì gặp vua Gia Long, vua phong ngay tri huyện Phù Dung, phủ Khoái Châu, trấn Sơn Nam (nay là huyện Phù Cừ, tỉnh Hưng Yên). Sự kiện này giống như Phi Tử đời Chiến Quốc dâng ngựa cho vua Chu Hiếu Vương mà được chức Phụ Dung, nên Nguyễn Du có danh hiệu là Phi Tử.",
+      "Qua các tác phẩm của Nguyễn Du, nét nổi bật chính là sự đề cao xúc cảm. Nguyễn Du là nhà thơ có học vấn uyên bác, nắm vững nhiều thể thơ của Trung Quốc như: ngũ ngôn cổ thi, ngũ ngôn luật, thất ngôn luật, ca, hành,... nên ở thể thơ nào, ông cũng có bài xuất sắc. Đặc biệt hơn cả là tài làm thơ bằng chữ Nôm của ông, mà đỉnh cao là Truyện Kiều, đã cho thấy thể thơ lục bát có khả năng chuyển tải nội dung tự sự và trữ tình to lớn trong thể loại truyện thơ."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Du",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:nguyen-ngoc-tu",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nguyen-ngoc-tu",
+    "sourcePath": "legacy/src/app/authorsPage/nguyenNgocTu/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/nguyenNgocTu",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nguyễn Ngọc Tư (sinh năm 1976 tại xã Tân Duyệt, huyện Đầm Dơi, tỉnh Cà Mau) là một nhà văn, thành viên Hội nhà văn Việt Nam. Năm 2018, cô được trao Giải thưởng Văn học Liberaturpreis 2018 do Litprom (Hiệp hội quảng bá văn học châu Á, châu Phi, Mỹ Latin ở Đức) bình chọn, dựa trên việc xem xét các bản dịch tiếng Đức tác phẩm nổi bật của các tác giả nữ đương đại tiêu biểu trong khu vực. Giải thưởng được trao hàng năm nhằm vinh danh các tác giả nữ đến từ châu Á, Phi, Mỹ Latin , Các tiểu vương quốc Ả Rập thống nhất (UAE) và vùng Caribe.",
+      "Nguyễn Ngọc Tư sinh năm 1976 tại xã Tân Duyệt, huyện Đầm Dơi, tỉnh Cà Mau trong một gia đình nông dân. Cô học hết cấp Phổ Thông Cơ Sở đã nghỉ học, mong muốn xin làm việc tại một cơ quan văn nghệ báo chí tỉnh Cà Mau, môi trường thuận tiện có thể phát triển nghề cầm bút mà cô đam mê. Các truyện ngắn đầu tay của Nguyễn Ngọc Tư viết về tình bạn ở đồng quê, được ba cô gửi tạp chí Văn nghệ Bán đảo Cà Mau và đã được đăng. Cô đã kết hôn và cũng đã có con."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ng%E1%BB%8Dc_T%C6%B0",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:nguyen-nhat-anh",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nguyen-nhat-anh",
+    "sourcePath": "legacy/src/app/authorsPage/nguyenNhatAnh/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/nguyenNhatAnh",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nguyễn Nhật Ánh (sinh ngày 7 tháng 5 năm 1955) là một nam nhà văn người Việt Nam. Được xem là một trong những nhà văn hiện đại xuất sắc nhất Việt Nam hiện nay, ông được biết đến qua nhiều tác phẩm văn học về đề tài tuổi trẻ. Nhiều tác phẩm của ông được độc giả và giới chuyên môn đánh giá cao, đa số đều đã được chuyển thể thành phim.",
+      "Ông lần lượt viết về sân khấu, phụ trách mục tiểu phẩm, phụ trách trang thiếu nhi và hiện nay là bình luận viên thể thao trên báo Sài Gòn Giải phóng Chủ nhật với bút danh Chu Đình Ngạn. Ngoài ra, ông còn có những bút danh khác như Anh Bồ Câu, Lê Duy Cật, Đông Phương Sóc, Sóc Phương Đông.",
+      "Nguyễn Nhật Ánh sinh ngày 7 tháng 5 năm 1955 tại làng Đo Đo, xã Bình Quế, huyện Thăng Bình, tỉnh Quảng Nam. Thuở nhỏ ông theo học tại các trường THPT Tiểu La , THPT chuyên ban Trần Cao Vân và THCS Phan Châu Trinh. Từ năm 1973, ông chuyển vào sống tại Sài Gòn, theo học ngành sư phạm. Ông đã từng tham gia Thanh niên xung phong, dạy học môn Văn tại trường THCS Bình Tây (Quận 6) từ năm 1983-1985.",
+      "Năm 13 tuổi, ông đăng báo bài thơ đầu tiên. Tác phẩm đầu tiên được in thành sách là một tập thơ tên Thành phố tháng tư (Nhà xuất bản Tác phẩm mới, 1984, in chung với Lê Thị Kim). Truyện dài đầu tiên của ông là tác phẩm Trước vòng chung kết (Nhà xuất bản Măng Non, 1984). Hơn hai mươi năm trở lại đây, ông tập trung viết văn xuôi, chuyên sáng tác về đề tài thanh thiếu niên."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%ADt_%C3%81nh",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:nguyen-tuan",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nguyen-tuan",
+    "sourcePath": "legacy/src/app/authorsPage/nguyenTuan/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/nguyenTuan",
+    "rawText": null,
+    "rawParagraphs": [
+      "Nguyễn Tuân (10 tháng 7 năm 1910 – 28 tháng 7 năm 1987) là một nhà văn người Việt Nam. Nguyễn Tuân có sở trường về tùy bút và ký. Ông viết văn với một phong cách tài hoa uyên bác và được xem là bậc thầy trong việc sáng tạo và sử dụng tiếng Việt. Các tác phẩm của Nguyễn Tuân luôn thể hiện phong cách độc đáo, tài hoa, sự hiểu biết phong phú trong nhiều lĩnh vực và vốn ngôn ngữ giàu có, điêu luyện. Sách giáo khoa hiện hành xếp ông vào một trong 9 tác giả tiêu biểu của văn học Việt Nam hiện đại.",
+      "Nguyễn Tuân sinh ngày 10 tháng 7 năm1910 ở phố Hàng Bạc, Hà Nội. Quê ông ở thôn Thượng Đình, xã Nhân Mục (tên nôm là làng Mọc), huyện Hoàn Long, Hà Nội, nay thuộc phường Nhân Chính, quận Thanh Xuân. Ông trưởng thành trong một gia đình nhà Nho khi Hán học đã tàn.",
+      "Nguyễn Tuân học đến cuối bậc Thành chung Nam Định (tương đương với cấp Trung học cơ sở hiện nay, tiền thân của trường THPT Chuyên Lê Hồng Phong, Nam Định ngày nay) thì bị đuổi vì tham gia một cuộc bãi khóa phản đối giáo viên Pháp nói xấu người Việt (1929). Sau đó ít lâu ông lại bị tù vì đi qua biên giới tới Thái Lan không có giấy phép. Sau khi ra tù, ông bắt đầu sự nghiệp viết lách của mình.",
+      "Nguyễn Tuân cầm bút từ khoảng đầu những năm 1935, nhưng nổi tiếng từ năm 1938 với các tác phẩm tùy bút, bút ký có phong cách độc đáo như Vang bóng một thời, Một chuyến đi... Năm 1941, ông lại bị bắt giam một lần nữa và gặp gỡ, tiếp xúc với những người hoạt động chính trị."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Tu%C3%A2n",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "author-biography:vu-trong-phung",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "long-form-biography",
+    "targetField": "authors.biography",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:vu-trong-phung",
+    "sourcePath": "legacy/src/app/authorsPage/vuTrongPhung/page.tsx",
+    "sourceSection": "authorDetail",
+    "sourceRoute": "/authorsPage/vuTrongPhung",
+    "rawText": null,
+    "rawParagraphs": [
+      "Vũ Trọng Phụng (1912-1939) là một nhà văn, nhà báo nổi tiếng của Việt Nam vào đầu thế kỷ 20. Tuy thời gian cầm bút rất ngắn ngủi, với tác phẩm đầu tay là truyện ngắn Chống nạng lên đường đăng trên Ngọ báo vào năm 1930, ông đã để lại một kho tác phẩm đáng kinh ngạc: hơn 30 truyện ngắn, 9 tập tiểu thuyết, 9 tập phóng sự, 7 vở kịch, cùng một bản dịch vở kịch từ tiếng Pháp, một số bài viết phê bình, tranh luận văn học và hàng trăm bài báo viết về các vấn đề chính trị, xã hội, văn hóa. Một số trích đoạn tác phẩm của ông trong các tác phẩm Số đỏ và Giông Tố đã được đưa vào sách giáo khoa môn Ngữ văn của Việt Nam.",
+      "Nổi tiếng với giọng văn trào phúng châm biếm xã hội của mình, một số người đã so sánh ông như Balzac của Việt Nam. Tuy nhiên, cũng vì phong cách \"tả chân\" và yếu tố tình dục trong tác phẩm mà khi sinh thời ông đã bị chính quyền bảo hộ Pháp tại Hà Nội gọi ra tòa vì \"tội tổn thương phong hóa\" (outrage aux bonnes moeurs). Về sau này, tác phẩm của ông lại bị cấm xuất bản vì là \"tác phẩm suy đồi\" tại miền Bắc Việt Nam từ năm 1954 và cả nước từ ngày 30 tháng 4 năm 1975 cho đến tận cuối những năm 1980 mới được chính quyền cho lưu hành.",
+      "Vũ Trọng Phụng sinh ngày 20 tháng 10 năm 1912, quê ở làng Hảo (trước đây thuộc làng cổ Liêu Xuyên mảnh đất địa linh sinh ra nhiều nhân tài) nay là thôn Ông Hảo, xã Liêu Xá, huyện Yên Mỹ, tỉnh Hưng Yên nhưng ông lớn lên và qua đời tại Hà Nội. Cha ông là Vũ Văn Lân làm thợ điện ở Ga-ra Charles Boillot, mất sớm khi ông mới được 7 tháng tuổi, Vũ Trọng Phụng được mẹ là bà Phạm Thị Khách ở vậy tần tảo nuôi con ăn học. Sau khi học hết tiểu học tại trường Hàng Vôi, Vũ Trọng Phụng phải thôi học để đi làm kiếm sống vào khoảng năm 16 tuổi. Ông là một trong những lứa thanh niên Việt Nam đầu tiên được giáo dục bằng tiếng Pháp và chữ Quốc Ngữ. Đó là nguyên nhân khiến ông luôn thần tượng nền văn hóa Pháp và là lớp nhà văn tích cực truyền bá văn học chữ Quốc Ngữ. Sau hai năm làm ở các sở tư như nhà hàng Gôđa, nhà in IDEO (Viễn Đông), ông chuyển hẳn sang làm báo, viết văn chuyên nghiệp.",
+      "Năm 1930, Vũ Trọng Phụng đã có truyện ngắn đầu tay Chống nạng lên đường đăng trên tờ Ngọ Báo. Bắt đầu ông viết một số truyện ngắn, nhưng không được chú ý nhiều. Năm 1931, ông viết vở kịch Không một tiếng vang, thì bắt đầu thu hút được sự quan tâm của độc giả. Năm 1934, Vũ Trọng Phụng mới cho ra mắt cuốn tiểu thuyết tâm lý đầu tay Dứt tình đăng trên tờ Hải Phòng tuần báo."
+    ],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/V%C5%A9_Tr%E1%BB%8Dng_Ph%E1%BB%A5ng",
+    "reason": "Long-form biography copy is external-source-derived and must remain in review-only artifacts."
+  },
+  {
+    "holdKey": "homepage-author-spotlight-summary",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "uncertain-short-copy",
+    "targetField": "homepage.authorSpotlight.reviewedShortCopy",
+    "linkedEntityType": "author",
+    "linkedEntityKey": "author:nguyen-nhat-anh",
+    "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+    "sourceSection": "authorSpotlight",
+    "sourceRoute": "/",
+    "rawText": "Nguyễn Nhật Ánh (sinh ngày 7 tháng 5 năm 1955) là một nam nhà văn người Việt Nam. Được xem là một trong những nhà văn hiện đại xuất sắc nhất Việt Nam hiện nay, ông được biết đến qua nhiều tác phẩm văn học về đề tài tuổi trẻ. Nhiều tác phẩm của ông được độc giả và giới chuyên môn đánh giá cao, đa số đều đã được chuyển thể thành phim.",
+    "rawParagraphs": [],
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%ADt_%C3%81nh",
+    "reason": "Author spotlight summary appears to be external-source-derived biographical copy and must stay out of public content."
+  },
+  {
+    "holdKey": "homepage-hero-summary",
+    "reviewStatus": "manual-review-required",
+    "contentKind": "uncertain-short-copy",
+    "targetField": "homepage.hero.reviewedShortCopy",
+    "linkedEntityType": "book",
+    "linkedEntityKey": "book:ngay-xua-co-mot-chuyen-tinh",
+    "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+    "sourceSection": "hero",
+    "sourceRoute": "/",
+    "rawText": "NGÀY XƯA CÓ MỘT CHUYỆN TÌNH là tác phẩm mới tinh thứ 2 trong năm 2016 của nhà văn Nguyễn Nhật Ánh dài hơn 300 trang, được coi là tập tiếp theo của tập truyện Mắt biếc. Có một tình yêu dữ dội, với em, của một người yêu em hơn chính bản thân mình - là anh.",
+    "rawParagraphs": [],
+    "rawExternalLink": "https://www.fahasa.com/ngay-xua-co-mot-chuyen-tinh-tai-ban-2019.html?srsltid=AfmBOooOcK_lIIzXg0WQBiAIWSGpt3JGfI5QjX3Z7BeQ1nzr13W2-1u8",
+    "reason": "Hero summary is external-link-derived marketing copy and must be manually reviewed before publication."
+  }
+]

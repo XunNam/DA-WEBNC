@@ -1,0 +1,65 @@
+{
+  "siteName": "Bookstore",
+  "defaultMetaTitle": "Bookstore",
+  "defaultMetaDescription": "Bookstore Website",
+  "footerLegalText": "Lập trình ứng dụng web | 0502",
+  "footerLinks": [
+    {
+      "label": "Trang chủ",
+      "href": "/"
+    },
+    {
+      "label": "Sách",
+      "href": "/books"
+    },
+    {
+      "label": "Tác giả",
+      "href": "/authors"
+    }
+  ],
+  "socialLinks": [],
+  "review": {
+    "siteName": {
+      "reviewRequired": true,
+      "evidenceType": "inferred-from-layout-title-prefix",
+      "sourcePath": "legacy/src/app/layout.tsx",
+      "rawValue": "Bookstore | Trang chủ",
+      "note": "Derived from the layout metadata title prefix because no stronger site-wide title source exists in raw artifacts."
+    },
+    "defaultMetaTitle": {
+      "reviewRequired": true,
+      "evidenceType": "inferred-from-layout-title-prefix",
+      "sourcePath": "legacy/src/app/layout.tsx",
+      "rawValue": "Bookstore | Trang chủ",
+      "note": "Default meta title is inferred from the layout title prefix and should be reviewed manually."
+    },
+    "defaultMetaDescription": {
+      "reviewRequired": false,
+      "evidenceType": "direct-from-layout-metadata",
+      "sourcePath": "legacy/src/app/layout.tsx",
+      "rawValue": "Bookstore Website",
+      "note": "Layout metadata description is directly evidenced in raw extraction."
+    },
+    "footerLinks": {
+      "reviewRequired": false,
+      "evidenceType": "normalized-stable-subset",
+      "sourcePath": "legacy/src/app/components/Footer.tsx",
+      "note": "Footer links were normalized to the approved stable subset only."
+    },
+    "socialLinks": {
+      "reviewRequired": false,
+      "evidenceType": "icons-without-urls",
+      "sourcePath": "legacy/src/app/components/Footer.tsx",
+      "note": "Social links normalize to an empty array because legacy raw evidence contains icons but no URLs."
+    },
+    "exclusions": [
+      "navLinks intentionally excluded from normalized site settings per v1 boundary.",
+      "Navbar and footer logo assets remain code-managed and are excluded from normalized site settings.",
+      "Layout icon evidence is excluded from v1 site settings."
+    ]
+  },
+  "provenance": {
+    "layoutMetadata": "legacy/src/app/layout.tsx",
+    "footer": "legacy/src/app/components/Footer.tsx"
+  }
+}

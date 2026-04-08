@@ -1,0 +1,633 @@
+[
+  {
+    "assetPath": "/author/kim-lan.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/kimLan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/kimLan"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/nam-cao.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/namCao/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/namCao"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/ngo-tat-to.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/ngoTatTo/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/ngoTatTo"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/nguyen-du.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/nguyenDu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenDu"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/nguyen-ngoc-tu.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNgocTu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNgocTu"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/nguyen-nhat-anh.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 4,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+        "sourceSection": "authorSpotlight",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNhatAnh/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNhatAnh"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "authorSpotlight.rawPortraitPath",
+        "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+        "sourceSection": "authorSpotlight",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/nguyen-tuan.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/nguyenTuan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenTuan"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/author/vu-trong-phung.jpg",
+    "assetType": "author-portrait",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage"
+      },
+      {
+        "sourceArtifact": "authors.raw.json",
+        "location": "rawPortraitPath",
+        "sourcePath": "legacy/src/app/authorsPage/vuTrongPhung/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/vuTrongPhung"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/book-store.png",
+    "assetType": "orphan-asset",
+    "migrationRole": "manual-review",
+    "referenceStatus": "orphan",
+    "referenceCount": 0,
+    "referencedBy": [],
+    "notes": [
+      "Legacy public asset exists on disk but is not referenced by the approved raw artifacts."
+    ]
+  },
+  {
+    "assetPath": "/books/canh-dong-bat-tan.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/chi-pheo.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/doi-thua.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/so-do.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/tat-den.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/truyen-kieu.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/vang-bong-mot-thoi.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/books/vo-nhat.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/home/cam-on-nguoi-lon.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 3,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "bestSellers.rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 3,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "bestSellers.rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/home/ngay-xua-co-mot-chuyen-tinh.webp",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 2,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+        "sourceSection": "hero",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "hero.rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+        "sourceSection": "hero",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/home/toi-la-beto.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 3,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "bestSellers.rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg",
+    "assetType": "book-cover",
+    "migrationRole": "payload-media-candidate",
+    "referenceStatus": "duplicate-reference",
+    "referenceCount": 3,
+    "referencedBy": [
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage"
+      },
+      {
+        "sourceArtifact": "books.raw.json",
+        "location": "rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      },
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "bestSellers.rawImagePath",
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Asset is reused across multiple legacy surfaces; this is a repeated reference, not a duplicate file."
+    ]
+  },
+  {
+    "assetPath": "/hyper-best.svg",
+    "assetType": "award-icon",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "awards.rawIconPath",
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceSection": "awards",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/mega.svg",
+    "assetType": "award-icon",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "awards.rawIconPath",
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceSection": "awards",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/site-logo-white.svg",
+    "assetType": "site-logo",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "site-settings.raw.json",
+        "location": "footer.rawLogoPath",
+        "sourcePath": "legacy/src/app/components/Footer.tsx",
+        "sourceSection": "footer",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/site-logo.svg",
+    "assetType": "site-logo",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "site-settings.raw.json",
+        "location": "navbar.rawLogoPath",
+        "sourcePath": "legacy/src/app/components/Navbar.tsx",
+        "sourceSection": "navbar",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "assetPath": "/ultimate-winer.svg",
+    "assetType": "award-icon",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "awards.rawIconPath",
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceSection": "awards",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": [
+      "Legacy filename retains the \"ultimate-winer\" typo and should be reviewed, not renamed in-place."
+    ]
+  },
+  {
+    "assetPath": "/ultra.svg",
+    "assetType": "award-icon",
+    "migrationRole": "static-code-managed",
+    "referenceStatus": "used",
+    "referenceCount": 1,
+    "referencedBy": [
+      {
+        "sourceArtifact": "homepage.raw.json",
+        "location": "awards.rawIconPath",
+        "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+        "sourceSection": "awards",
+        "sourceRoute": "/"
+      }
+    ],
+    "notes": []
+  }
+]

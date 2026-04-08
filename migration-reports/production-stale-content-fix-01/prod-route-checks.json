@@ -1,0 +1,27 @@
+[
+  {
+    "route": "/",
+    "statusCode": 200,
+    "contentLength": 30696
+  },
+  {
+    "route": "/books",
+    "statusCode": 200,
+    "contentLength": 33118
+  },
+  {
+    "route": "/authors",
+    "statusCode": 200,
+    "contentLength": 25382
+  },
+  {
+    "route": "/authors/nguyen-nhat-anh",
+    "statusCode": 200,
+    "contentLength": 16786
+  },
+  {
+    "route": "/admin",
+    "statusCode": 200,
+    "contentLength": 45246
+  }
+]

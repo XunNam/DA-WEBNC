@@ -1,0 +1,120 @@
+.footer {
+  width: 100%;
+  margin-top: 64px;
+  background: #25272d;
+  color: #fff;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.brandBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.brandLink {
+  color: inherit;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.legalText {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.legalText :where(p),
+.legalText :where(ul),
+.legalText :where(ol) {
+  margin: 0;
+}
+
+.legalText :where(p + p),
+.legalText :where(ul + p),
+.legalText :where(p + ul),
+.legalText :where(ol + p),
+.legalText :where(p + ol),
+.legalText :where(ul + ul),
+.legalText :where(ol + ol),
+.legalText :where(ul + ol),
+.legalText :where(ol + ul) {
+  margin-top: 8px;
+}
+
+.legalText :where(a) {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.nav {
+  width: 100%;
+}
+
+.linkList,
+.socialRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.linkItem {
+  min-width: 0;
+}
+
+.link,
+.socialLink {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.link:hover,
+.socialLink:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .footer {
+    margin-top: 48px;
+  }
+
+  .inner {
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .brandLink {
+    font-size: 24px;
+  }
+
+  .linkList,
+  .socialRow {
+    gap: 8px 16px;
+  }
+}

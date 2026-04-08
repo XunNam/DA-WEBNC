@@ -1,0 +1,281 @@
+[
+  {
+    "key": "author:kim-lan",
+    "name": "Kim Lân",
+    "slugCandidate": "kim-lan",
+    "slug": "kim-lan",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/kim-lan.jpg",
+    "lifeDatesDisplay": "1920 - 2007 (86 tuổi)",
+    "metaTitle": "Tác giả | Kim Lân",
+    "metaDescription": "Tiểu sử Kim Lân",
+    "legacyRoutes": [
+      "/authorsPage/kimLan"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/kimLan",
+        "rawPortraitPath": "/author/kim-lan.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/kimLan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/kimLan",
+        "rawLegacyRoute": "/authorsPage/kimLan",
+        "rawPortraitPath": "/author/kim-lan.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:nam-cao",
+    "name": "Nam Cao",
+    "slugCandidate": "nam-cao",
+    "slug": "nam-cao",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/nam-cao.jpg",
+    "lifeDatesDisplay": "1915 - 1951 (? tuổi)",
+    "metaTitle": "Tác giả | Nam Cao",
+    "metaDescription": "Tiểu sử Nam Cao",
+    "legacyRoutes": [
+      "/authorsPage/namCao"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/namCao",
+        "rawPortraitPath": "/author/nam-cao.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/namCao/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/namCao",
+        "rawLegacyRoute": "/authorsPage/namCao",
+        "rawPortraitPath": "/author/nam-cao.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:ngo-tat-to",
+    "name": "Ngô Tất Tố",
+    "slugCandidate": "ngo-tat-to",
+    "slug": "ngo-tat-to",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/ngo-tat-to.jpg",
+    "lifeDatesDisplay": "1893 - 1954 (60-61 tuổi)",
+    "metaTitle": "Tác giả | Ngô Tất Tố",
+    "metaDescription": "Tiểu sử Ngô Tất Tố",
+    "legacyRoutes": [
+      "/authorsPage/ngoTatTo"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/ngoTatTo",
+        "rawPortraitPath": "/author/ngo-tat-to.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/ngoTatTo/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/ngoTatTo",
+        "rawLegacyRoute": "/authorsPage/ngoTatTo",
+        "rawPortraitPath": "/author/ngo-tat-to.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:nguyen-du",
+    "name": "Nguyễn Du",
+    "slugCandidate": "nguyen-du",
+    "slug": "nguyen-du",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/nguyen-du.jpg",
+    "lifeDatesDisplay": "1766 - 1820 (54 tuổi)",
+    "metaTitle": "Tác giả | Nguyễn Du",
+    "metaDescription": "Tiểu sử Nguyễn Du",
+    "legacyRoutes": [
+      "/authorsPage/nguyenDu"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/nguyenDu",
+        "rawPortraitPath": "/author/nguyen-du.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenDu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenDu",
+        "rawLegacyRoute": "/authorsPage/nguyenDu",
+        "rawPortraitPath": "/author/nguyen-du.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:nguyen-ngoc-tu",
+    "name": "Nguyễn Ngọc Tư",
+    "slugCandidate": "nguyen-ngoc-tu",
+    "slug": "nguyen-ngoc-tu",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/nguyen-ngoc-tu.jpg",
+    "lifeDatesDisplay": "1976 - Nay (48 tuổi)",
+    "metaTitle": "Tác giả | Nguyễn Ngọc Tử",
+    "metaDescription": "Tiểu sử Nguyễn Ngọc Tử",
+    "legacyRoutes": [
+      "/authorsPage/nguyenNgocTu"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/nguyenNgocTu",
+        "rawPortraitPath": "/author/nguyen-ngoc-tu.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNgocTu/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNgocTu",
+        "rawLegacyRoute": "/authorsPage/nguyenNgocTu",
+        "rawPortraitPath": "/author/nguyen-ngoc-tu.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:nguyen-nhat-anh",
+    "name": "Nguyễn Nhật Ánh",
+    "slugCandidate": "nguyen-nhat-anh",
+    "slug": "nguyen-nhat-anh",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/nguyen-nhat-anh.jpg",
+    "lifeDatesDisplay": "1955 - Nay (69 tuổi)",
+    "metaTitle": "Tác giả | Nguyễn Nhật Ánh",
+    "metaDescription": "Tiểu sử Nguyễn Nhật Ánh",
+    "legacyRoutes": [
+      "/authorsPage/nguyenNhatAnh"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/nguyenNhatAnh",
+        "rawPortraitPath": "/author/nguyen-nhat-anh.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+        "sourceSection": "authorSpotlight",
+        "sourceRoute": "/",
+        "rawLegacyRoute": null,
+        "rawPortraitPath": "/author/nguyen-nhat-anh.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenNhatAnh/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenNhatAnh",
+        "rawLegacyRoute": "/authorsPage/nguyenNhatAnh",
+        "rawPortraitPath": "/author/nguyen-nhat-anh.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:nguyen-tuan",
+    "name": "Nguyễn Tuân",
+    "slugCandidate": "nguyen-tuan",
+    "slug": "nguyen-tuan",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/nguyen-tuan.jpg",
+    "lifeDatesDisplay": "1910 - 1987 (77 tuổi)",
+    "metaTitle": "Tác giả | Nguyễn Tuân",
+    "metaDescription": "Tiểu sử Nguyễn Tuân",
+    "legacyRoutes": [
+      "/authorsPage/nguyenTuan"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/nguyenTuan",
+        "rawPortraitPath": "/author/nguyen-tuan.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/nguyenTuan/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/nguyenTuan",
+        "rawLegacyRoute": "/authorsPage/nguyenTuan",
+        "rawPortraitPath": "/author/nguyen-tuan.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "author:vu-trong-phung",
+    "name": "Vũ Trọng Phụng",
+    "slugCandidate": "vu-trong-phung",
+    "slug": "vu-trong-phung",
+    "slugCollisionStrategy": "base",
+    "portraitPath": "/author/vu-trong-phung.jpg",
+    "lifeDatesDisplay": "1912 - 1939 (26 tuổi)",
+    "metaTitle": "Tác giả | Vũ Trọng Phụng",
+    "metaDescription": "Tiểu sử Vũ Trọng Phụng",
+    "legacyRoutes": [
+      "/authorsPage/vuTrongPhung"
+    ],
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/authorsPage/page.tsx",
+        "sourceSection": "authorsIndex",
+        "sourceRoute": "/authorsPage",
+        "rawLegacyRoute": "/authorsPage/vuTrongPhung",
+        "rawPortraitPath": "/author/vu-trong-phung.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/authorsPage/vuTrongPhung/page.tsx",
+        "sourceSection": "authorDetail",
+        "sourceRoute": "/authorsPage/vuTrongPhung",
+        "rawLegacyRoute": "/authorsPage/vuTrongPhung",
+        "rawPortraitPath": "/author/vu-trong-phung.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  }
+]

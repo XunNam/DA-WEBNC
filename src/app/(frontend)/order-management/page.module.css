@@ -1,0 +1,376 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px 90px;
+}
+
+.header {
+  padding: 50px 0 24px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.intro {
+  margin: 12px auto 0;
+  max-width: 760px;
+  color: #62666c;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.listSection,
+.emptyState {
+  min-width: 0;
+}
+
+.pageSections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.toolbarSection {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.06);
+}
+
+.viewSwitch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.viewLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 18px;
+  border: 1px solid #d7dce3;
+  border-radius: 999px;
+  background: #fff;
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.viewLink:hover {
+  border-color: #cfd4da;
+  background: #f6f7f9;
+  color: #25272d;
+  transform: translateY(-1px);
+}
+
+.viewLinkActive {
+  border-color: #4d3bc6;
+  background: #4d3bc6;
+  color: #fff;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.searchLabel,
+.searchHint {
+  margin: 0;
+}
+
+.searchLabel {
+  color: #4b5563;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.searchHint {
+  color: #62666c;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.searchInputGroup {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.searchPrefix {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 46px;
+  border: 1px solid #d7dce3;
+  border-radius: 12px;
+  background: #f7f8fa;
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.searchInput {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 15px;
+  border: 1px solid #d7dce3;
+  border-radius: 12px;
+  background: #fff;
+  color: #25272d;
+  font-size: 16px;
+  line-height: 1.5;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.searchInput:focus,
+.searchInput:focus-visible {
+  border-color: #4d3bc6;
+  box-shadow: 0 0 0 4px rgba(77, 59, 198, 0.08);
+  outline: none;
+}
+
+.searchButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #4d3bc6;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.searchButton:hover {
+  background: #3f30a3;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(77, 59, 198, 0.16);
+}
+
+.searchButton:focus-visible,
+.viewLink:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card,
+.emptyStateCard {
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.06);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.cardHeaderText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eyebrow,
+.sectionText,
+.metaLabel,
+.metaValue {
+  margin: 0;
+}
+
+.eyebrow {
+  color: #4d3bc6;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.orderCode,
+.sectionHeading {
+  margin: 0;
+  font-weight: 700;
+}
+
+.orderCode {
+  font-size: clamp(28px, 3.5vw, 34px);
+  line-height: 1.2;
+}
+
+.sectionHeading {
+  font-size: clamp(28px, 3.5vw, 34px);
+  line-height: 1.2;
+}
+
+.sectionText {
+  color: #62666c;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.metaList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+}
+
+.metaRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.metaLabel {
+  color: #62666c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.metaValue {
+  color: #25272d;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.detailLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: #4d3bc6;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.detailLink:hover {
+  background: #3f30a3;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(77, 59, 198, 0.16);
+}
+
+.detailLink:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.emptyState {
+  display: flex;
+  justify-content: center;
+}
+
+.emptyStateCard {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 720px;
+  padding: 32px;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .searchInputGroup {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .searchButton {
+    grid-column: 1 / -1;
+  }
+
+  .cardHeader,
+  .metaRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .metaValue {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 20px 72px;
+  }
+
+  .header {
+    padding-top: 40px;
+  }
+
+  .card,
+  .toolbarSection,
+  .emptyStateCard {
+    padding: 20px;
+  }
+
+  .viewLink,
+  .detailLink {
+    width: 100%;
+  }
+}

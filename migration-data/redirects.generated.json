@@ -1,0 +1,52 @@
+[
+  {
+    "source": "/authorsPage",
+    "destination": "/authors",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/kimLan",
+    "destination": "/authors/kim-lan",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/namCao",
+    "destination": "/authors/nam-cao",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/ngoTatTo",
+    "destination": "/authors/ngo-tat-to",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/nguyenDu",
+    "destination": "/authors/nguyen-du",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/nguyenNgocTu",
+    "destination": "/authors/nguyen-ngoc-tu",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/nguyenNhatAnh",
+    "destination": "/authors/nguyen-nhat-anh",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/nguyenTuan",
+    "destination": "/authors/nguyen-tuan",
+    "permanent": true
+  },
+  {
+    "source": "/authorsPage/vuTrongPhung",
+    "destination": "/authors/vu-trong-phung",
+    "permanent": true
+  },
+  {
+    "source": "/booksPage",
+    "destination": "/books",
+    "permanent": true
+  }
+]

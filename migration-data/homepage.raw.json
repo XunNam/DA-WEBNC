@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+    "sourceRoute": "/",
+    "rawEyebrow": "SÁCH MỚI",
+    "rawTitle": "Ngày xưa có một chuyện tình",
+    "rawSummary": "NGÀY XƯA CÓ MỘT CHUYỆN TÌNH là tác phẩm mới tinh thứ 2 trong năm 2016 của nhà văn Nguyễn Nhật Ánh dài hơn 300 trang, được coi là tập tiếp theo của tập truyện Mắt biếc. Có một tình yêu dữ dội, với em, của một người yêu em hơn chính bản thân mình - là anh.",
+    "rawImagePath": "/home/ngay-xua-co-mot-chuyen-tinh.webp",
+    "rawBuyLinkUrl": "https://www.fahasa.com/ngay-xua-co-mot-chuyen-tinh-tai-ban-2019.html?srsltid=AfmBOooOcK_lIIzXg0WQBiAIWSGpt3JGfI5QjX3Z7BeQ1nzr13W2-1u8",
+    "rawSampleLinkUrl": "https://books.google.com.vn/books/about/Ng%C3%A0y_x%C6%B0a_c%C3%B3_m%E1%BB%99t_chuy%E1%BB%87n_t%C3%ACnh.html?id=ZldZAQAACAAJ&source=kp_book_description&redir_esc=y"
+  },
+  "authorSpotlight": {
+    "sourcePath": "legacy/src/app/components/body/bioGraphy/Biography.tsx",
+    "sourceRoute": "/",
+    "rawEyebrow": "TÁC GIẢ",
+    "rawName": "Nguyễn Nhật Ánh",
+    "rawSummary": "Nguyễn Nhật Ánh (sinh ngày 7 tháng 5 năm 1955) là một nam nhà văn người Việt Nam. Được xem là một trong những nhà văn hiện đại xuất sắc nhất Việt Nam hiện nay, ông được biết đến qua nhiều tác phẩm văn học về đề tài tuổi trẻ. Nhiều tác phẩm của ông được độc giả và giới chuyên môn đánh giá cao, đa số đều đã được chuyển thể thành phim.",
+    "rawPortraitPath": "/author/nguyen-nhat-anh.jpg",
+    "rawExternalLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%ADt_%C3%81nh"
+  },
+  "awards": {
+    "sourcePath": "legacy/src/app/components/body/adWards/Adwards.tsx",
+    "sourceRoute": "/",
+    "items": [
+      {
+        "rawIconPath": "/ultra.svg",
+        "rawIconAlt": "Ultra Prestigous",
+        "rawTitle": "Best Author Awards 2012",
+        "rawBody": "Arcu pellentesque nisi consectetur netus aenean metus sit mattis sit sed."
+      },
+      {
+        "rawIconPath": "/mega.svg",
+        "rawIconAlt": "Mega Standard",
+        "rawTitle": "World's #1 Best-selling Book",
+        "rawBody": "Diam nibh non in enim nunc suscipit risus, adipiscing aenean quisque viverra."
+      },
+      {
+        "rawIconPath": "/hyper-best.svg",
+        "rawIconAlt": "Hyper Best",
+        "rawTitle": "NYT Best-selling Author 2014",
+        "rawBody": "Urna donec dolor bibendum lectus arcu purus eget nisl, ut nisl vitae."
+      },
+      {
+        "rawIconPath": "/ultimate-winer.svg",
+        "rawIconAlt": "Ultimate Winer",
+        "rawTitle": "Best Author Awards 2018",
+        "rawBody": "Morbi odio sodales et facilisis mi nibh fringilla quis risus ultricies facilisis."
+      }
+    ]
+  },
+  "bestSellers": {
+    "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+    "sourceRoute": "/",
+    "rawHeading": "Sách Bán Chạy",
+    "rawBody": "Các tác phẩm văn học bán chạy nhất của chúng tôi",
+    "items": [
+      {
+        "rawTitle": "Cho tôi xin một vé đi tuổi thơ",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "73.800 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+      },
+      {
+        "rawTitle": "Cảm ơn người lớn",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện dài",
+        "rawPrice": "220.000 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cam-on-nguoi-lon.jpg"
+      },
+      {
+        "rawTitle": "Tôi là Bêtô",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "65.000 VNĐ",
+        "rawCompareAtPrice": "67.000 VNĐ",
+        "rawImagePath": "/home/toi-la-beto.jpg"
+      },
+      {
+        "rawTitle": "Tôi thấy hoa vàng trên cỏ xanh",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "81.000 VNĐ",
+        "rawCompareAtPrice": "93.000 VNĐ",
+        "rawImagePath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg"
+      }
+    ]
+  },
+  "newsletterCta": {
+    "sourcePath": "legacy/src/app/page.tsx",
+    "sourceRoute": "/",
+    "rawHeading": "Đăng ký để nhận thông tin mới nhất",
+    "rawBody": "Nhận những thông tin mới nhất về sách, các ưu đãi, mã giảm giá và sử dụng ngay thôi nào."
+  }
+}

@@ -1,0 +1,265 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 32px 24px 90px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #4d3bc6;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.backLink:hover {
+  color: #3f30a3;
+}
+
+.heroSection {
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+  margin-top: 26px;
+}
+
+.coverCard,
+.detailCard,
+.sectionCard {
+  border: 1px solid rgba(37, 39, 45, 0.08);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 16px 32px rgba(37, 39, 45, 0.08);
+}
+
+.coverCard {
+  overflow: hidden;
+}
+
+.coverImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.detailCard {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 32px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #5f4ecb;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 50px);
+  line-height: 1.12;
+  font-weight: 700;
+}
+
+.metaList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+}
+
+.metaRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(37, 39, 45, 0.08);
+}
+
+.metaLabel,
+.metaValue,
+.priceValue,
+.compareAtPrice,
+.fallbackText,
+.richText {
+  margin: 0;
+}
+
+.metaLabel {
+  color: #62666c;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.metaValue,
+.priceValue,
+.compareAtPrice {
+  color: #25272d;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.priceValue {
+  font-weight: 700;
+}
+
+.compareAtPrice {
+  color: #8f949c;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.actionSection {
+  margin-top: 24px;
+}
+
+.sectionCard {
+  padding: 32px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: clamp(34px, 4vw, 42px);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.richText,
+.fallbackText {
+  margin-top: 18px;
+  color: #62666c;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.richText :global(p) {
+  margin: 0;
+}
+
+.richText :global(p + p) {
+  margin-top: 12px;
+}
+
+.richText :global(ul),
+.richText :global(ol) {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.richText :global(li + li) {
+  margin-top: 8px;
+}
+
+.actionRow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  width: 100%;
+  padding: 14px 20px;
+  border: 1px solid #25272d;
+  border-radius: 14px;
+  background: #fff;
+  color: #25272d;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.primaryActionButton {
+  border-color: #4d3bc6;
+  background: #4d3bc6;
+  color: #fff;
+}
+
+.actionButton:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(37, 39, 45, 0.1);
+}
+
+.primaryActionButton:hover:not(:disabled) {
+  background: #3f30a3;
+  border-color: #3f30a3;
+}
+
+.actionButton:focus-visible {
+  outline: 2px solid #25272d;
+  outline-offset: 2px;
+}
+
+.actionButton:disabled {
+  border-color: #d4d7dd;
+  background: #f3f4f6;
+  color: #95989d;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.primaryActionButton:disabled {
+  border-color: #d4d7dd;
+  background: #e6e7eb;
+  color: #95989d;
+}
+
+@media (max-width: 900px) {
+  .heroSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 24px 20px 72px;
+  }
+
+  .detailCard,
+  .sectionCard {
+    padding: 24px;
+  }
+
+  .actionRow {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: clamp(34px, 9vw, 42px);
+  }
+}

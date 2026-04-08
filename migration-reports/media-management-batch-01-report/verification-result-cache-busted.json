@@ -1,0 +1,62 @@
+{
+  "created": {
+    "id": "69ca606ac0e2b6f594e302f6",
+    "filename": "batch-01-test-image-02.png",
+    "url": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png"
+  },
+  "beforeDeleteCacheBustedChecks": [
+    {
+      "attempt": 1,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png?verify=1774870634951-0",
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "cfCacheStatus": "MISS"
+    },
+    {
+      "attempt": 2,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png?verify=1774870635806-1",
+      "ok": true,
+      "status": 200,
+      "statusText": "OK",
+      "cfCacheStatus": "MISS"
+    }
+  ],
+  "afterDeleteCacheBustedChecks": [
+    {
+      "attempt": 1,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png?verify=1774870636210-0",
+      "ok": false,
+      "status": 404,
+      "statusText": "Not Found",
+      "cfCacheStatus": "MISS"
+    },
+    {
+      "attempt": 2,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png?verify=1774870637513-1",
+      "ok": false,
+      "status": 404,
+      "statusText": "Not Found",
+      "cfCacheStatus": "MISS"
+    },
+    {
+      "attempt": 3,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png?verify=1774870638693-2",
+      "ok": false,
+      "status": 404,
+      "statusText": "Not Found",
+      "cfCacheStatus": "MISS"
+    }
+  ],
+  "afterDeletePlainUrlCheck": [
+    {
+      "attempt": 1,
+      "target": "https://da-webnc-bookstore-media.xuannam.xyz/batch-01-test-image-02.png",
+      "ok": false,
+      "status": 404,
+      "statusText": "Not Found",
+      "cfCacheStatus": "MISS"
+    }
+  ],
+  "cacheBustedDeletionConfirmed": true
+}

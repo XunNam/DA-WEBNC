@@ -1,0 +1,479 @@
+[
+  {
+    "key": "book:cam-on-nguoi-lon",
+    "title": "Cảm ơn người lớn",
+    "slugCandidate": "cam-on-nguoi-lon",
+    "slug": "cam-on-nguoi-lon",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Nhật Ánh",
+    "authorKey": "author:nguyen-nhat-anh",
+    "authorSlug": "nguyen-nhat-anh",
+    "coverImagePath": "/home/cam-on-nguoi-lon.jpg",
+    "typeLabel": "Truyện dài",
+    "price": 220000,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Cảm ơn người lớn",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện dài",
+        "rawPrice": "220.000 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cam-on-nguoi-lon.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/",
+        "rawTitle": "Cảm ơn người lớn",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện dài",
+        "rawPrice": "220.000 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cam-on-nguoi-lon.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:canh-dong-bat-tan",
+    "title": "Cánh đồng bất tận",
+    "slugCandidate": "canh-dong-bat-tan",
+    "slug": "canh-dong-bat-tan",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Ngọc Tư",
+    "authorKey": "author:nguyen-ngoc-tu",
+    "authorSlug": "nguyen-ngoc-tu",
+    "coverImagePath": "/books/canh-dong-bat-tan.jpg",
+    "typeLabel": "Tiểu thuyết",
+    "price": 63000,
+    "compareAtPrice": 69700,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Cánh đồng bất tận",
+        "rawAuthorName": "Nguyễn Ngọc Tư",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "63.000 VNĐ",
+        "rawCompareAtPrice": "69.700 VNĐ",
+        "rawImagePath": "/books/canh-dong-bat-tan.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:chi-pheo",
+    "title": "Chí Phèo",
+    "slugCandidate": "chi-pheo",
+    "slug": "chi-pheo",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nam Cao",
+    "authorKey": "author:nam-cao",
+    "authorSlug": "nam-cao",
+    "coverImagePath": "/books/chi-pheo.webp",
+    "typeLabel": "Truyện ngắn",
+    "price": 38400,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Chí Phèo",
+        "rawAuthorName": "Nam Cao",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "38.400 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/books/chi-pheo.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:cho-toi-xin-mot-ve-di-tuoi-tho",
+    "title": "Cho tôi xin một vé đi tuổi thơ",
+    "slugCandidate": "cho-toi-xin-mot-ve-di-tuoi-tho",
+    "slug": "cho-toi-xin-mot-ve-di-tuoi-tho",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Nhật Ánh",
+    "authorKey": "author:nguyen-nhat-anh",
+    "authorSlug": "nguyen-nhat-anh",
+    "coverImagePath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg",
+    "typeLabel": "Truyện ngắn",
+    "price": 73800,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Cho tôi xin một vé đi tuổi thơ",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "73.800 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/",
+        "rawTitle": "Cho tôi xin một vé đi tuổi thơ",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "73.800 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:doi-thua",
+    "title": "Đời thừa",
+    "slugCandidate": "doi-thua",
+    "slug": "doi-thua",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nam Cao",
+    "authorKey": "author:nam-cao",
+    "authorSlug": "nam-cao",
+    "coverImagePath": "/books/doi-thua.jpg",
+    "typeLabel": "Truyện ngắn",
+    "price": 29400,
+    "compareAtPrice": 33600,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Đời thừa",
+        "rawAuthorName": "Nam Cao",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "29.400 VNĐ",
+        "rawCompareAtPrice": "33.600 VNĐ",
+        "rawImagePath": "/books/doi-thua.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:ngay-xua-co-mot-chuyen-tinh",
+    "title": "Ngày xưa có một chuyện tình",
+    "slugCandidate": "ngay-xua-co-mot-chuyen-tinh",
+    "slug": "ngay-xua-co-mot-chuyen-tinh",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Nhật Ánh",
+    "authorKey": "author:nguyen-nhat-anh",
+    "authorSlug": "nguyen-nhat-anh",
+    "coverImagePath": "/home/ngay-xua-co-mot-chuyen-tinh.webp",
+    "typeLabel": null,
+    "price": null,
+    "compareAtPrice": null,
+    "catalogVisible": false,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/components/body/newRelease/NewRelease.tsx",
+        "sourceSection": "hero",
+        "sourceRoute": "/",
+        "rawTitle": "Ngày xưa có một chuyện tình",
+        "rawAuthorName": null,
+        "rawTypeLabel": null,
+        "rawPrice": null,
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/home/ngay-xua-co-mot-chuyen-tinh.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": true,
+      "notes": [
+        {
+          "code": "missing-type-label",
+          "message": "No raw typeLabel exists for this book. Manual review is required before import."
+        },
+        {
+          "code": "missing-price",
+          "message": "No raw price exists for this book. This is expected only for the hero-only book."
+        },
+        {
+          "code": "author-inferred-from-summary",
+          "message": "Author name was inferred from hero summary text because the raw hero record omitted rawAuthorName."
+        },
+        {
+          "code": "hero-only-book",
+          "message": "This book exists only in the homepage hero source and is normalized with catalogVisible=false."
+        }
+      ]
+    }
+  },
+  {
+    "key": "book:so-do",
+    "title": "Số đỏ",
+    "slugCandidate": "so-do",
+    "slug": "so-do",
+    "slugCollisionStrategy": "base",
+    "authorName": "Vũ Trọng Phụng",
+    "authorKey": "author:vu-trong-phung",
+    "authorSlug": "vu-trong-phung",
+    "coverImagePath": "/books/so-do.webp",
+    "typeLabel": "Tiểu thuyết",
+    "price": 55200,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Số đỏ",
+        "rawAuthorName": "Vũ Trọng Phụng",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "55.200 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/books/so-do.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:tat-den",
+    "title": "Tắt đèn",
+    "slugCandidate": "tat-den",
+    "slug": "tat-den",
+    "slugCollisionStrategy": "base",
+    "authorName": "Ngô Tất Tố",
+    "authorKey": "author:ngo-tat-to",
+    "authorSlug": "ngo-tat-to",
+    "coverImagePath": "/books/tat-den.webp",
+    "typeLabel": "Tiểu thuyết",
+    "price": 75000,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Tắt đèn",
+        "rawAuthorName": "Ngô Tất Tố",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "75.000 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/books/tat-den.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:toi-la-beto",
+    "title": "Tôi là Bêtô",
+    "slugCandidate": "toi-la-beto",
+    "slug": "toi-la-beto",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Nhật Ánh",
+    "authorKey": "author:nguyen-nhat-anh",
+    "authorSlug": "nguyen-nhat-anh",
+    "coverImagePath": "/home/toi-la-beto.jpg",
+    "typeLabel": "Truyện ngắn",
+    "price": 65000,
+    "compareAtPrice": 67000,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Tôi là Bêtô",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "65.000 VNĐ",
+        "rawCompareAtPrice": "67.000 VNĐ",
+        "rawImagePath": "/home/toi-la-beto.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/",
+        "rawTitle": "Tôi là Bêtô",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "65.000 VNĐ",
+        "rawCompareAtPrice": "67.000 VNĐ",
+        "rawImagePath": "/home/toi-la-beto.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:toi-thay-hoa-vang-tren-co-xanh",
+    "title": "Tôi thấy hoa vàng trên cỏ xanh",
+    "slugCandidate": "toi-thay-hoa-vang-tren-co-xanh",
+    "slug": "toi-thay-hoa-vang-tren-co-xanh",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Nhật Ánh",
+    "authorKey": "author:nguyen-nhat-anh",
+    "authorSlug": "nguyen-nhat-anh",
+    "coverImagePath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg",
+    "typeLabel": "Tiểu thuyết",
+    "price": 81000,
+    "compareAtPrice": 93000,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Tôi thấy hoa vàng trên cỏ xanh",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "81.000 VNĐ",
+        "rawCompareAtPrice": "93.000 VNĐ",
+        "rawImagePath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg"
+      },
+      {
+        "sourcePath": "legacy/src/app/components/body/bestSellingBooks/BestSellingBooks.tsx",
+        "sourceSection": "bestSellers",
+        "sourceRoute": "/",
+        "rawTitle": "Tôi thấy hoa vàng trên cỏ xanh",
+        "rawAuthorName": "Nguyễn Nhật Ánh",
+        "rawTypeLabel": "Tiểu thuyết",
+        "rawPrice": "81.000 VNĐ",
+        "rawCompareAtPrice": "93.000 VNĐ",
+        "rawImagePath": "/home/toi-thay-hoa-vang-tren-co-xanh.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:truyen-kieu",
+    "title": "Truyện Kiều",
+    "slugCandidate": "truyen-kieu",
+    "slug": "truyen-kieu",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Du",
+    "authorKey": "author:nguyen-du",
+    "authorSlug": "nguyen-du",
+    "coverImagePath": "/books/truyen-kieu.jpg",
+    "typeLabel": "Truyện thơ",
+    "price": 47600,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Truyện Kiều",
+        "rawAuthorName": "Nguyễn Du",
+        "rawTypeLabel": "Truyện thơ",
+        "rawPrice": "47.600 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/books/truyen-kieu.jpg"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:vang-bong-mot-thoi",
+    "title": "Vang bóng một thời",
+    "slugCandidate": "vang-bong-mot-thoi",
+    "slug": "vang-bong-mot-thoi",
+    "slugCollisionStrategy": "base",
+    "authorName": "Nguyễn Tuân",
+    "authorKey": "author:nguyen-tuan",
+    "authorSlug": "nguyen-tuan",
+    "coverImagePath": "/books/vang-bong-mot-thoi.webp",
+    "typeLabel": "Truyện ngắn",
+    "price": 58000,
+    "compareAtPrice": null,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Vang bóng một thời",
+        "rawAuthorName": "Nguyễn Tuân",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "58.000 VNĐ",
+        "rawCompareAtPrice": null,
+        "rawImagePath": "/books/vang-bong-mot-thoi.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  },
+  {
+    "key": "book:vo-nhat",
+    "title": "Vợ nhặt",
+    "slugCandidate": "vo-nhat",
+    "slug": "vo-nhat",
+    "slugCollisionStrategy": "base",
+    "authorName": "Kim Lân",
+    "authorKey": "author:kim-lan",
+    "authorSlug": "kim-lan",
+    "coverImagePath": "/books/vo-nhat.webp",
+    "typeLabel": "Truyện ngắn",
+    "price": 45000,
+    "compareAtPrice": 78000,
+    "catalogVisible": true,
+    "provenance": [
+      {
+        "sourcePath": "legacy/src/app/booksPage/page.tsx",
+        "sourceSection": "catalogGrid",
+        "sourceRoute": "/booksPage",
+        "rawTitle": "Vợ nhặt",
+        "rawAuthorName": "Kim Lân",
+        "rawTypeLabel": "Truyện ngắn",
+        "rawPrice": "45.000 VNĐ",
+        "rawCompareAtPrice": "78.000 VNĐ",
+        "rawImagePath": "/books/vo-nhat.webp"
+      }
+    ],
+    "review": {
+      "reviewRequired": false,
+      "notes": []
+    }
+  }
+]

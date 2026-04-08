@@ -1,0 +1,116 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #25272d;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 50px 24px 90px;
+}
+
+.sectionTitle {
+  margin: 0 0 40px;
+  text-align: center;
+  font-size: clamp(40px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: 0 16px 36px rgba(37, 39, 45, 0.12);
+}
+
+.name {
+  margin: 30px 0 0;
+  font-size: clamp(38px, 4vw, 44px);
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.lifeDates {
+  margin: 8px 0 0;
+  font-size: 18px;
+  color: #62666c;
+}
+
+.metaBlock {
+  min-width: 0;
+}
+
+.metaTitle {
+  margin: 0;
+  font-size: 16px;
+  color: #5f4ecb;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.metaDescription {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #555a61;
+  text-align: justify;
+}
+
+.emptyState {
+  margin-top: 24px;
+  border: 1px solid #e2e4e8;
+  border-radius: 18px;
+  padding: 24px;
+  background: #fafafb;
+}
+
+.emptyTitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.emptyBody {
+  margin: 12px 0 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #62666c;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 40px 20px 72px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 32px;
+  }
+}
